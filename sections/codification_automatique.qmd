@@ -1,0 +1,16 @@
+# Codification automatique
+
+## Classer automatiquement les observations dans une nomenclature statistique
+
+La codification automatique permet un gain de qualité et d'efficacité. L'axe de travail principal du SSP Lab est d'améliorer cette technique et d'accompagner les maîtrises d’ouvrage pour son passage en production.
+
+### Codification de l’APE dans le cadre du projet Sirene 4
+
+**Contexte :** Remplacement du système Sicore par un modèle fastText, plus adapté aux évolutions du Guichet Unique Entreprises (GUE).
+
+**Programme 2024 :** - Nouvel entraînement du modèle basé sur les données du GUE. - Campagne d’annotation avec Label Studio. - Adaptation du modèle à la NAF 2025.
+
+### Mutualisation des outils de codification pour la PCS 2020
+
+-   Groupe de travail sur le développement d’un modèle mutualisé pour la PCS 2020.
+-   Tests et mise en production de l’API pour les enquêtes de 2024.

@@ -1,0 +1,87 @@
+---
+title: "Programme prévisionnel de travail du SSP Lab pour l’année 2024"
+author: "SSP Lab"
+date: "28 février 2024"
+lang: fr
+format:
+  html:
+    theme: litera
+    toc: true
+    number-sections: true
+    css: styles/styles.css  # Fichier CSS pour personnaliser l'apparence
+  pdf:
+    documentclass: scrartcl
+    number-sections: false
+    toc: false
+    header-includes: |
+      \usepackage{graphicx}
+      \usepackage{fancyhdr}
+      \usepackage{titling}
+      \usepackage{xcolor}
+      \usepackage{tcolorbox}
+fontsize: 12pt
+geometry: a4paper
+
+---
+
+\newpage
+
+\noindent
+\textbf{Montrouge, le 28 février 2024}  
+\hfill  
+\textbf{N°2024\_5346\_DG75-L401}  
+
+
+\noindent
+\textbf{Direction générale} \\
+\textbf{Direction de la méthodologie et de la coordination statistique et internationale} \\
+\textbf{Unité « SSP Lab »}
+
+📞 **Tél :** 01 87 69 55 65  \\
+📧 **Mèl :** romain.lesur@insee.fr \\
+
+📞 **Tél :** 01 87 69 66 23  \\
+📧 **Mèl :** marie-pierre.joubert@insee.fr \\
+
+---
+
+\textbf{Note à l’attention de}  
+
+Mmes et MM. les membres du Comité de direction de l’Insee,  
+
+Mmes et MM. les chefs de département de la DESE, de la DMCSI, de la DSDS, de la DSI, et de la DSE,  
+
+M. le chef du DAF  
+
+---
+
+\textbf{Objet : Programme prévisionnel de travail du SSP Lab pour l’année 2024}  
+
+📁 **Dossier suivi par :**  
+- Lesur Romain  
+- Joubert Marie-Pierre  
+
+
+# PRÉSENTATION
+
+L’unité SSP Lab a pour missions :
+  
+- Assurer une veille technologique et diffuser largement les méthodes et technologies innovantes pertinentes pour la statistique publique ;
+- Analyser le potentiel pour le SSP des nouvelles sources de données et des nouvelles méthodes de data science au travers de travaux exploratoires ;
+- Animer les réseaux d’innovation statistique, notamment le réseau des data scientists de la statistique publique, grâce à des évènements, des formations, une newsletter...
+
+Le champ d’investigation du SSP Lab porte sur la **data science**, domaine interdisciplinaire à la croisée de l’informatique et de la statistique, porteur de nouvelles approches méthodologiques, de moyens d’analyse de nouvelles sources de données ainsi que de techniques, outils et méthodes de travail innovants. 
+
+\newpage
+
+---
+
+# PROGRAMME PRÉVISIONNEL DE TRAVAIL POUR 2024
+
+## Codification automatique
+
+{{< include sections/codification_automatique.qmd >}}
+
+
+## Moteurs d'identification
+{{< include sections/moteurs_identification.qmd >}}

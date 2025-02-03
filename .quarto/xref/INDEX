@@ -1,0 +1,16 @@
+{
+  "index.qmd": {
+    "index.html": "f8c44da8",
+    "index.tex": "a5edc265"
+  },
+  "PAT.qmd": {
+    "PAT.html": "656da67c",
+    "PAT.tex": "7b69dd39"
+  },
+  "sections/codification_automatique.qmd": {
+    "codification_automatique.html": "988f58fb"
+  },
+  "sections/moteurs_identification.qmd": {
+    "moteurs_identification.html": "2da54df8"
+  }
+}

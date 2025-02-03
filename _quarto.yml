@@ -1,0 +1,24 @@
+project:
+  type: website  # Définit le projet comme un site web Quarto
+  output-dir: docs  # Indique que les fichiers générés seront stockés dans "docs"
+  render:
+    - PAT.qmd  # On ne rend que PAT.qmd, qui inclut les sections
+
+website: 
+  title: "Programme prévisionnel de travail du SSP Lab 2024"
+  site-url: "https://github.com/inseefrlab/PAT"
+  repo-url: "https://github.com/inseefrlab/PAT"
+  repo-actions: [edit, source, issue]
+
+format:
+  html: 
+    theme: litera  # Applique un thème clair et professionnel (Thème Quarto de base)
+    css: styles/styles.css  # 🔥 Ajout du CSS personnalisé
+    toc: true  # Ajoute une table des matières
+    toc-location: right  # 🔥 Positionne la table des matières à droite
+    number-sections: true  # Numérote les sections automatiquement
+  pdf:
+    documentclass: scrartcl  # Définit le style du PDF (document académique)
+    number-sections: false
+    toc: false
+    output-file: PAT.pdf  # Nom du fichier PDF généré

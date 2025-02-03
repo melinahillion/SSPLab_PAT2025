@@ -1,0 +1,87 @@
+/* Personnalisation de la barre latérale */
+.sidebar {
+    overflow-y: auto; /* Activer le défilement vertical */
+    max-height: 100vh; /* Limiter la hauteur à la taille de la fenêtre */
+    background-color: #f8f9fa; /* Couleur de fond */
+    /* Autres styles personnalisés */
+}
+
+/* Style pour les éléments de la barre latérale */
+.sidebar a {
+    color: #007bff; /* Couleur des liens */
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #e9ecef; /* Couleur de fond au survol */
+}
+
+/* Titres */
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    color: #2C3E50;
+}
+
+/* Contenu principal */
+body {
+    font-size: 16px;
+    color: #333;
+}
+
+/* En-tête */
+.header {
+    background-color: #F5F5F5;
+    padding: 10px;
+    border-bottom: 2px solid #D9E3E4;
+}
+
+/* Texte en gras */
+strong {
+    color: #F39C12;
+}
+
+/* Liens */
+a {
+    color: #2980B9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Notes et encadrés */
+.tcolorbox {
+    background-color: #FAFAFA;
+    padding: 10px;
+    border-left: 5px solid #3498DB;
+}
+
+/* Affichage forcé de la barre latérale droite (table des matières) */
+#toc-sidebar {
+    display: block !important; /* Assure qu'elle est visible */
+    position: fixed; /* Fixe la table des matières à droite */
+    right: 0;
+    top: 0;
+    width: 250px; /* Ajustez la largeur si nécessaire */
+    height: 100vh; /* Pleine hauteur */
+    overflow-y: auto; /* Défilement activé si nécessaire */
+    background-color: #FFFFFF; /* Fond blanc */
+    border-left: 2px solid #D9E3E4; /* Bordure discrète */
+    padding: 15px;
+    font-size: 14px;
+}
+
+/* Style des liens dans la table des matières */
+#toc-sidebar a {
+    color: #007bff !important; /* Bleu pour les liens */
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+#toc-sidebar a:hover {
+    background-color: #e9ecef !important; /* Gris clair au survol */
+}
