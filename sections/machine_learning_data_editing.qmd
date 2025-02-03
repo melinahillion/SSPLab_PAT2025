@@ -1,0 +1,87 @@
+### Analyse des réponses des filiales dans l'algorithme de consolidation des comptes d'ESANE
+
+
+
+*Contexte* : Dans la suite d'un mémoire de master Ensai, la division
+PTGU a développé un algorithme permettant de classifier des unités
+légales et d'imputer des valeurs de consolidation. Cet algorithme
+analyse la qualité de la réponse des Unités légales aux questions de
+l'ESA relatives aux montants d'achat et de vente intra-groupe, réponses
+conditionnées par le fait que l'unité légale soit filiale d'un groupe et
+qu'elle en ait connaissance. L'algorithme commence par détecter si les
+réponses sont cohérentes en s'appuyant sur un modèle de forêt aléatoire.
+Les Unités légales pour lesquelles la réponse au cadre groupe est
+directement intégrable dans le processus de consolidation vont
+constituer un échantillon de travail pour entraîner et valider un modèle
+d'imputation qui sera utilisé pour les unités légales dont la réponse
+est incohérente. Ce modèle d'imputation utilise également des forêts
+aléatoires.
+
+
+
+Dans le cadre de la ré-ingénierie d'Esane, cette piste a été poursuivie
+en 2023. Toutefois, dans les délais du projet de ré-ingénierie d'Esane,
+elle n'est pas retenue actuellement dans le MVP. En 2023, les modèles
+ont été estimés sur les millésimes 2021 et 2022 de l'ESA et ont fourni
+des résultats encourageants. Toutefois, il apparaît un manque de
+stabilité entre deux années, qui apparaît via la difficulté à prévoir
+2022 à l'aide du modèle estimé sur les données 2021. Ceci amène à
+s'interroger sur les paramétrages à effectuer pour gagner en robustesse
+dans l'usage des méthodes de forêt aléatoire. La question de la
+robustesse de ces estimations en évolution se pose.
+
+
+
+*Programme 2024 :* En 2024, le SSP Lab apportera un appui méthodologique
+afin de choisir et adapter les méthodes.
+
+
+
+### Détection d'anomalies dans les séries mensuelles d'entreprises
+
+
+
+*Contexte* : dans le cadre du stage de master de Marie-Lorraine Chausse,
+finalisé fin août 2023, la division ICA a travaillé avec le SSP Lab sur
+la détection des anomalies dans le processus de calcul des indices de
+chiffre d'affaires (Harmonica). L'objectif du projet est d'améliorer la
+capacité de la division à se concentrer sur les points problématiques
+plutôt que sur les entreprises les plus importantes. L'accroissement de
+l'inflation conduit à envoyer beaucoup de demandes de contrôles aux
+gestionnaires, d'où l'enjeu important d'un tel outil.
+
+
+
+L'expertise priorisée menée par les gestionnaires du pôle ISA à Nantes,
+basée notamment sur le scoring de séries en évolutions fortes, n'est pas
+totalement satisfaisante et laisse par construction un pan d'analyse
+hors champ (notamment les séries « non priorisées », alors que certaines
+réponses individuelles peuvent être aberrantes, y compris des unités
+présentant des évolutions nulles ou peu importantes). Un tel outil
+pourrait apporter un appui aux gestionnaires du pôle ISA dans la
+détection et la correction des valeurs aberrantes sur les séries
+priorisées et sur le « rattrapage » des séries secondaires.
+
+
+
+Les premiers travaux exploratoires sur la détection d'anomalie ont été
+conduits dans le cadre du mémoire de Marie-Lorraine Chausse, qui a été
+finalisé fin août 2023. Les résultats les plus encourageants ont été
+obtenus avec l'utilisation de l'algorithme XGBoost dans un cadre
+d'apprentissage supervisé, en utilisant l'échantillon annoté de données
+historiques expertisées par le pôle ISA. La division ICA, et plus
+largement le DSCT, souhaite poursuivre ces travaux et les élargir en
+s'inscrivant plus globalement dans la thématique transversale du *data
+editing*.
+
+
+
+*Programme 2024* : le SSP Lab pourra collaborer avec les divisions ICA
+et IPP sur ce thème, en fonction des moyens qu'elles seront en capacité
+de mettre à disposition sur ces sujets. De plus, un groupe de travail du
+centre de ressources européen en IA/ML portera le *data editing*, il
+sera coordonné par Destatis. Le SSP Lab n'est pas directement impliqué,
+mais pourra en tirer des informations.
+
+
+

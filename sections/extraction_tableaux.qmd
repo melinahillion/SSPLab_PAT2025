@@ -1,0 +1,94 @@
+
+
+
+### Extraction du tableau des titres de participation des comptes sociaux pour le profilage
+
+
+*Contexte* : La division PTGU (DRISS) a initié en 2021 des travaux sur
+l'extraction d'informations de tableaux des comptes sociaux (en
+particulier les tableaux des filiales et participations) contenus dans
+des documents scannés diffusés par l'INPI via une API. Cette
+exploitation automatique de données issues des fichiers PDF des comptes
+sociaux a pour but un gain de productivité côté profileurs, l'idée étant
+de leur mettre à disposition de façon automatique le contenu des
+tableaux de données qu'ils recherchent et saisissent manuellement pour
+le moment. Elle pourrait également ouvrir la voie à d'autres
+exploitations prometteuses, soit de la même source (comptes sociaux)
+avec des technologies différentes, soit via la réutilisation des
+technologies employées sur d'autres sources (Esane, Profilapp, Lifi,
+Citrus, LEI).
+
+
+
+Les travaux initiaux ont été prolongés en 2022 par la division PTGU en
+collaboration avec le SSP Lab. La Banque de France extrait également des
+informations des comptes sociaux des entreprises, dans le cadre du suivi
+des échanges et investissements directs étrangers. Elle a rejoint le
+projet en 2023. Il s'est avéré que le modèle d'extraction d'informations
+de tableaux développé initialement par l'Insee n'était plus à l'état de
+l'art vu les progrès réalisés dans le domaine. Ainsi plusieurs outils
+d'extraction en *open source* ont montré rapidement des performances
+plus élevées que celles du modèle Insee, alors abandonné. Sur les
+modèles libres identifiés, des tests ont été réalisés en 2023 pour
+sélectionner le meilleur en mobilisant un jeu de 75 annotations
+réalisées par les participants du GT, Insee (PTGU et SSP Lab) et Banque
+de France. Ses performances restent toutefois pour l'instant inférieures
+à celles d'un modèle commercial également testé.
+
+
+
+*Programme 2024* : des points d'étape toutes les 3 semaines ont été
+fixés au T1 2024 pour faire un état des gains de performance des
+méthodes *open-source* et pour déterminer le choix final de méthode
+avant la fin du trimestre. Le choix de se tourner vers le modèle
+commercial constitue une alternative envisageable si le niveau de
+performance satisfaisant n'est pas atteint avec un des modèles *open
+source*. Sinon, l'objectif est de passer à une phase opérationnelle de
+développement du modèle retenu à l'aide d'une base d'apprentissage au
+deuxième trimestre 2024, base à constituer selon des modalités et des
+moyens à préciser avec la division PTGU. L'objectif de ce POC est de
+pouvoir disposer d'une application renvoyant un tableau de filiales et
+participations en csv en réponse à un siren indiqué par l'expert. Dans
+un premier temps, un prototype de test basé sur la solution *open
+source* sera mis à disposition des utilisateurs au T1 2024.
+
+
+
+### Exploitation des tickets de caisse pour l'enquête Budget de famille
+
+
+
+*Contexte* : dans le cadre de la refonte de l'enquête Budget de famille,
+la division RCVM participe à l'ESSnet Smart Surveys, coordonné par l'INS
+Néerlandais (CBS). Un des sujets traité par cet ESSnet est le
+développement d'un outil d'exploitation de photos de tickets de caisse
+pris par les enquêtés. Cet outil est intégré dans une application
+mobile. Pour les enquêtés ne disposant pas de l'application, l'objectif
+est d'arriver à extraire de la photo du ticket de caisse des
+informations pertinentes et cohérentes avec les informations issues de
+l'application. Le SSP Lab a mobilisé les compétences acquises sur
+l'extraction d'information des PDF pour explorer, en lien avec la
+division RCVM, dans quelle mesure il est possible d'adapter ces méthodes
+à l'extraction d'information des photos des tickets de caisse. Une
+première méthode a donné des résultats encourageants et une campagne
+d'annotation manuelle de tickets de l'enquête précédente a été entamée.
+
+
+
+Par ailleurs, de premiers tests ont été effectués avec l'application
+développée par CBS et mise à disposition dans le cadre de l'ESSnet
+Trusted Smart Surveys. Enfin, des contacts ont été pris avec
+l'entreprise Teklia, spécialiste de l'extraction d'information textuelle
+dans des images.
+
+
+
+*Programme 2024* : Trois solutions techniques seront mises en œuvre sur
+le test 2024 : l'outil développé par le SSP Lab, l'application de CBS et
+les résultats fournis par Teklia. Le SSPLab et la division RCVM
+travailleront ensemble pour définir une stratégie optimale d'utilisation
+de ces solutions, éventuellement en en combinant plusieurs d'entre
+elles.
+
+
+

@@ -1,0 +1,53 @@
+
+
+*Contexte* : Deux SSM (le SDES et la DARES) et deux directions de
+l'Insee (la DSE et la DDAR) souhaitent explorer l'apport des méthodes
+d'analyse textuelle pour extraire d'un texte libre des informations
+pertinentes. L'approche algorithmique diffère des projets de
+codification automatique car ici on ne cherche pas à classer des textes
+courts et relativement standardisés dans une nomenclature, mais à
+exploiter des documents plus longs, écrits dans des styles très variés,
+et à identifier des informations pertinentes parmi un grand ensemble de
+phrases.
+
+Les cas d'usage envisagés sont les suivants :
+
+- Le SDES souhaite étudier la possibilité d'analyser la zone de texte dans laquelle les particuliers qui déposent un permis de construire décrivent la future construction. L'objectif est d'aider les gestionnaires en charge de la base Sit@del à corriger les informations renseignées dans les champs structurés de la demande de permis (surface de logement, adresse,...) ;
+
+- La Dares souhaiterait extraire des informations des accords d'entreprise portant sur les comptes épargne-temps. Il s'agirait par exemple d'en extraire des informations quantitatives comme le nombre maximum de jours qu'il est possible de verser sur un CET ;
+
+- La division Profilage et Traitement des Grandes Unités a observé que les comptes sociaux des entreprises comportent souvent des commentaires expliquant certaines fortes évolutions. Extraire ces informations générerait un fort gain de temps pour le service Esane de Nantes (et parfois pour les profileurs), sur plusieurs milliers de dossiers traités ;
+
+- Le DOE réalisera une veille en 2024 sur les outils de type Statbot, qui permettraient aux internautes d'accéder directement à la donnée ou à son illustration à la suite d'une requête formulée en langage naturel. Son objectif serait de réaliser un POC en 2025.
+
+
+L'extraction d'information dans des textes en langage naturel est l'une
+des tâches les plus complexes dans le domaine du traitement automatique
+du langage. En 2023, un prototype d'application de RAG (*Retrieval
+Augmented Generation*) a été développé afin d'explorer la pertinence de
+ces architectures pour récupérer des informations ciblées dans les
+comptes sociaux. Ce prototype^8^ répond à des questions posées sur les
+comptes sociaux d'une entreprise pour une année donnée. Il utilise des
+modèles open-source pré-entraînés pour vectoriser du texte
+(Sentence-BERT) et générer les réponses (Llama2-7B). Pour le moment
+aucune procédure de fine-tuning ou d'alignement n'a été mise en place.
+
+
+
+*Programme 2024* : Le SSP Lab continuera sa veille active sur le sujet
+et testera sur les autres cas d'usage pré-cités, l'apport de
+l'architecture testée sur les comptes sociaux des entreprises. Ainsi, le
+SSP Lab et la DIIT encadreront un stage destiné au prototypage d'un
+pipeline de type RAG pour faciliter l'accès et la réutilisation des
+données open data de l'Insee. Les deux missions principales du stage
+seront d'une part de développer des techniques d'entraînement de
+fonctions d'extraction de données et d'autre part de mettre en œuvre un
+module d'évaluation à l'état de l'art. Une forme de valorisation
+possible de ce modèle serait de le déployer sous la forme d'un agent
+conversationnel visant à faciliter l'accès aux données open data et à
+leur réutilisation dans le cadre d'expérimentations de data science. Ce
+stage permettra ainsi de préparer le POC que le DOE souhaite mener en
+2025. Quel que soit le cas d'usage, affiner les résultats nécessiterait
+un effort conséquent d'annotation de données afin d'optimiser les
+modèles (fine-tuning).
+

@@ -1,0 +1,71 @@
+
+*Contexte* : l'Insee est chargé de maintenir le Répertoire d'immeuble
+localisés (RIL) qui contient l'ensemble des adresses de logements,
+utilisées par la suite pour effectuer les bases de sondages des
+enquêtes. Le RIL est mis à jour conjointement par l'Insee et les
+communes à partir des fichiers de permis de construire et de remontées
+d'informations locales. Cependant, dans les DOM, notamment en Guyane et
+à Mayotte, le RIL est essentiellement mis à jour à partir d'enquêtes
+dites "cartographiques" réalisées sur le terrain.
+
+
+
+Cet exercice consomme beaucoup de moyens humains, la réalité du terrain
+est en effet difficilement anticipable par les enquêteurs en amont de
+l'enquête. L'exercice de repérage de nouvelles constructions peut
+également s'avérer dangereux pour les agents se rendant dans des lieux
+soumis à l'insécurité. Ainsi les directions interrégionales
+Antilles-Guyane et de la Réunion-Mayotte ont souligné l'intérêt de
+repérer ex ante la construction ou destruction de certaines zones de
+bâti précaire (notamment les bidonvilles), ce qui permettrait une
+meilleure organisation sur le terrain. L'Insee exploite jusqu'ici assez
+peu les données satellitaires. Ce besoin exprimé par les directions
+interrégionales Antilles-Guyane et de la Réunion-Mayotte représente une
+opportunité pour le SSP Lab de contribuer à l'appropriation collective
+de ces données.
+
+
+
+Le SSP Lab et la DMRG ont analysé en 2023 la possibilité d'utiliser des
+données satellitaires (Sentinel-2 et Pléiades) pour détecter
+l'apparition ou la disparition de bidonvilles. Deux stagiaires ont été
+recrutés en appui de ce travail qui s'effectue en relation étroite avec
+les directions interrégionales Antilles-Guyane et de la Réunion-Mayotte
+ainsi que la division Méthodes et traitements des recensements.
+
+
+
+Des données Pléiades sur les DROM ont été collectées avec l'aide de
+l'IGN, et des outils d'annotation automatique ont été développés pour
+constituer des jeux d'entraînement et de test pour différentes tâches
+(segmentation, classification, détection d'objet) à partir du RIL et de
+la BDTOPO de l'IGN. Au cours du stage, des données Sentinel-2,
+disponibles gratuitement, ont été récupérées sur les mêmes territoires
+et ont été également annotées de manière automatique.
+
+
+
+Différentes solutions permettant de détecter des changements concernant
+le bâti ont ainsi pu être testées, avec un effort particulier sur une
+méthode en deux phases :
+
+- Segmentation d'images (bâti/non-bâti) à deux dates différentes
+
+- Différenciation des masques de segmentation pour identifier les changements.
+
+
+Si les résultats sont encourageants, la phase de segmentation donne pour
+le moment des masques trop bruités. En fin d'année 2023, un travail
+conséquent de ré-ingénierie a commencé afin d'améliorer les modèles.
+
+
+
+*Programme 2024* : les travaux sur ce sujet se poursuivront en 2024
+conjointement entre le SSP Lab et la DMRG. En mai 2024, l'équipe se
+rendra à la DIRAG pour échanger directement sur place avec les personnes
+en charge de l'enquête et présenter leurs travaux. Les résultats seront
+présentés plus largement lors du séminaire DMS-SSP Lab ouvert à l'Insee
+et aux SSM. De plus, le SSP Lab et la DMRG travailleront avec la DMTR
+pour explorer la possibilité d'utiliser leurs résultats pour estimer
+grossièrement l'évolution de la population à Mayotte entre deux
+recensements.

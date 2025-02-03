@@ -1,16 +1,306 @@
-# Codification automatique
 
-## Classer automatiquement les observations dans une nomenclature statistique
+Classer automatiquement une observation dans la catégorie pertinente
+d'une nomenclature statistique permet un gain de qualité et
+d'efficacité. Plusieurs directions de l'Insee ont une attente forte sur
+ce sujet. Il s'agit d'un axe de travail majeur pour le SSP Lab, qui
+s'implique à la fois dans l'entraînement du modèle et dans
+l'accompagnement des maîtrises d'ouvrage en vue de la mise en
+production. Il s'agit également d'un axe d'investissement au niveau
+international, la codification automatique étant le cas d'usage le plus
+répandu des méthodes d'apprentissage automatique au sein des instituts
+de statistiques, investissement qui devrait encore se renforcer avec le
+centre de ressources européen en intelligence artificielle et machine
+learning^2^ qui sera lancé en avril 2024.
 
-La codification automatique permet un gain de qualité et d'efficacité. L'axe de travail principal du SSP Lab est d'améliorer cette technique et d'accompagner les maîtrises d’ouvrage pour son passage en production.
 
-### Codification de l’APE dans le cadre du projet Sirene 4
 
-**Contexte :** Remplacement du système Sicore par un modèle fastText, plus adapté aux évolutions du Guichet Unique Entreprises (GUE).
+En raison notamment des contraintes liées au passage en production, la
+technologie utilisée est actuellement fastText^3^, mais le SSP Lab
+continue un travail de veille sur l'amélioration des méthodes de
+classification, veille menée de manière collective grâce à un groupe de
+travail rassemblant des agents de plusieurs directions concernées par la
+codification automatique. Aujourd'hui l'Insee utilise cette méthode pour
+coder trois types d'information : le code APE d'une entreprise, la
+profession et catégorie socioprofessionnelle d'un individu et les
+nomenclatures des produits de consommation des ménages (COICOP et
+NA2008).
 
-**Programme 2024 :** - Nouvel entraînement du modèle basé sur les données du GUE. - Campagne d’annotation avec Label Studio. - Adaptation du modèle à la NAF 2025.
 
-### Mutualisation des outils de codification pour la PCS 2020
 
--   Groupe de travail sur le développement d’un modèle mutualisé pour la PCS 2020.
--   Tests et mise en production de l’API pour les enquêtes de 2024.
+### Codification de l'APE dans le cadre du projet Sirene 4
+
+
+
+*Contexte* : le système Sicore était mal adapté aux évolutions dans la
+description de l'activité des entreprises dues à leur enregistrement via
+le « Guichet unique entreprises » (GUE), entré en vigueur au 1^er^
+janvier 2023. En effet, seuls 30 % environ des bulletins du guichet
+unique auraient pu être codés par Sicore. Durant le second semestre
+2022, le SSP Lab a développé un algorithme de codification automatique
+de l'APE grâce à la librairie fastText et a travaillé avec les équipes
+du projet SIRENE 4 pour passer ce modèle en production. L'ensemble des
+liasses du guichet unique sont traitées par ce modèle depuis le 1^er^
+janvier 2023. Depuis septembre 2023, un data scientist a rejoint la
+division RIAS et prend progressivement en charge le pilotage du projet
+avec le soutien du SSP Lab. Un tableau de bord a été créé pour suivre en
+quasi temps réel les prédictions du modèle et détecter d'éventuels biais
+ou dérives.
+
+
+
+*Programme 2024* : en collaboration avec la division RIAS, le SSP Lab a
+prévu de réaliser un nouvel entraînement du modèle actuel pour améliorer
+sa performance. En effet, la base d'entraînement actuelle utilise
+uniquement des données antérieures au guichet unique. La nouvelle base
+d'entraînement utilisera les données issues du guichet unique et les
+codes retenus, soit par le modèle, soit par les gestionnaires lors d'un
+envoi en reprise. De plus, pour suivre les performances du modèle, une
+campagne d'annotation est prévue en 2024, sous la forme d'une expérience
+pilote. Elle prendra la forme d'une mesure de concordance entre le
+codage automatique du modèle et le codage manuel réalisé par des
+experts, sur un échantillon de bulletins. La campagne sera réalisée
+grâce à un outil d'annotation (Label Studio) mis à disposition par la
+division RIAS.
+
+
+
+La deuxième opération envisagée est d'apprendre au modèle à coder dans
+la NAF 2025. Une campagne d'annotation en nouvelle NAF est prévue au
+second semestre 2024. Le SSP Lab interviendra en appui de la division
+RIAS pour la construction des échantillons d'apprentissage, la gestion
+des annotations à l'aide de Label Studio, l'interprétation des résultats
+et la prise en compte de leurs implications pour l'entraînement (ou le
+ré-entraînement) du modèle.
+
+
+
+Par ailleurs, dans le cadre de la mise en œuvre de la NAF 2025, la
+division RIAS souhaite mettre en place une téléprocédure permettant
+d'automatiser et de simplifier le processus de contestation de l'APE par
+une entreprise. L'idée serait de déployer un site web dédié sur lequel
+les entreprises pourraient consulter leur nouveau code APE en NAF 2025
+et déclencher une procédure de contestation en cas de désaccord. La
+division RIAS souhaite instruire la faisabilité d'utiliser les
+informations renseignées par l'entreprise sur ce formulaire de
+contestation pour coder de façon automatique l'APE de l'entreprise et,
+si la faisabilité est confirmée, mesurer l'intérêt au regard des coûts
+de développement. Le SSP Lab appuiera la division RIAS dans cette
+démarche.
+
+
+
+###  Mutualisation des outils de codification pour les différentes sources utilisant la PCS 2020
+
+
+
+*Contexte* : une expérimentation menée par le SSP Lab et la DRTI en 2021
+a permis d'entraîner un modèle d'apprentissage supervisé fastText pour
+coder les libellés de professions déclarées dans l'enquête annuelle de
+recensement dans la nouvelle nomenclature de professions et catégories
+socioprofessionnelles 2020. Pour ce faire, un jeu de données codées avec
+grande précision dans cette nouvelle nomenclature a été constitué par
+les opérateurs RP et le pôle PCS (120 000 bulletins RP codés en double
+avec arbitrage) puis mobilisé pour entraîner le modèle. Suite au CD PTT
+de mars 2022, un poste d'investissement a été ouvert à la DMTR destiné à
+implémenter dans la chaîne de production du recensement pour l'EAR 2024
+une méthode de codage de la PCS 2020 combinant la recherche du libellé
+dans un index et l'algorithme classifieur fastText pour les cas où le
+libellé ne se retrouve pas dans la liste. En 2023, la DMTR et le SSP Lab
+ont collaboré sur des travaux conjoints afin de répondre à plusieurs
+questions méthodologiques liées à la mise en production de fastText dans
+le processus RP : analyses plus fines des performances du modèle,
+exploration de nouvelles mesures et indicateurs de confiance, arbitrages
+entre qualité des prédictions et volumes de reprise manuelle, apports et
+stratégies du réentraînement et du monitoring...
+
+
+
+Par ailleurs, le CD PTT de mars 2022 a demandé d'instruire la question
+de la mutualisation des outils de codification pour les différentes
+sources utilisant la PCS 2020. Le SSP Lab et la DRTI ont étudié la
+possibilité d'adapter à d'autres sources l'algorithme supervisé utilisé
+pour classer la PCS 2020 dans le recensement de la population. Les
+conclusions indiquent qu'un modèle entraîné en mutualisant les bases
+d'enquêtes a de meilleures performances qu'un modèle entraîné sur une
+seule enquête, sauf pour le RP et l'enquête Emploi, qui présentent une
+légère dégradation des performances lorsqu'on utilise un modèle
+mutualisé plutôt qu'un modèle propre.
+
+*Programme 2024* : un groupe de travail consacré au développement du
+modèle mutualisé pour la codification de la PCS 2020 et son déploiement
+au moyen d'une API réunira en 2024 le SSP Lab, la DRTI, le pôle de
+reprise PCS 2020, la division Emploi et la DMTR. Ce groupe travaillera
+notamment sur la précision attendue du modèle par le pôle de reprise et
+la manière d'arbitrer entre précision et charge de reprise, les
+ressources nécessaires pour le monitoring et le ré-entraînement du
+modèle et la prise en main de l'API par le pôle de reprise.
+
+
+
+L'API sera utilisée en self pour les enquêtes à venir en 2024 (ENL, VRS,
+enquêtes Concours, pilote Famille). En parallèle, un autre groupe de
+travail préparera la mise en production du système de codification, dans
+l'objectif de l'appliquer au plus grand nombre possible d'enquêtes
+ménages à partir du premier semestre 2025. Il s'intéressera à
+l'articulation entre LS3 et KubeProd, au déploiement des API sur
+KubeProd et à leur maintenance, et à l'intégration de la codification
+dans les chaînes de traitement en aval des enquêtes. Le SSP Lab, la DRTI
+et des représentants de la DSI participeront à ce groupe.
+
+Par ailleurs, le SSP Lab et la DRTI apporteront leur appui au DERA pour
+le projet de codification automatique de la PCS ESE 2020. Un premier
+test de performance sera réalisé au second semestre 2024 à partir d'un
+jeu de données annotées. En fonction des résultats, le besoin d'appui de
+la part du DERA et les modalités de collaboration pour 2025 seront
+précisées.
+
+A terme, quels que soient les cas d'usages, le SSP Lab sera en appui sur
+le ré-entrainement ponctuel du modèle, mais ne prendra pas en charge le
+ré-entrainement régulier du modèle.
+
+
+
+### Codification des produits de consommation : IPC et enquête Budget des familles
+
+
+#### Indice des prix à la consommation
+
+
+*Contexte* : la division Indice des prix à la consommation reçoit depuis
+le 4^e^ trimestre 2022 les données de caisses des enseignes Aldi et
+Lidl. Or, contrairement à celles des autres enseignes, ces données ne
+sont pas couvertes par le référentiel Circana qui associe à chaque
+code-barre une description précise du produit et un code de la
+nomenclature COICOP. En 2023, le SSP Lab et la division IPC ont
+travaillé conjointement au développement d'un algorithme d'apprentissage
+supervisé permettant de coder les produits d'Aldi et Lidl dans cette
+nomenclature. Une note méthodologique cosignée par les deux entités^4^
+dresse un bilan des résultats sur les données Lidl (celles d'Aldi ont
+été reçues trop tardivement). Le modèle fastText entraîné sur les
+enseignes de grande distribution couvertes par Circana a de bonnes
+performances prédictives sur le sous-ensemble des produits Lidl pouvant
+être appariés à Circana. Toutefois, pour les produits de marques
+spécifiques à Lidl, il n'est pas possible d'évaluer la qualité
+prédictive du modèle sans effectuer une campagne d'annotation dédiée.
+
+
+
+*Programme 2024* : une réflexion sur la stratégie de labellisation et
+d'entraînement du modèle est à mettre en œuvre dans la suite des
+travaux. Par ailleurs, un travail méthodologique similaire est à mener
+concernant l'enseigne Aldi. Le SSP Lab pourra apporter son appui à la
+division IPC si elle souhaite mener à bien de tels travaux.
+
+
+
+#### Enquête Budget de famille
+
+
+
+*Contexte* : la division Conditions de vie des ménages travaille à la
+modernisation de l'enquête Budget de famille, dont la prochaine édition
+aura lieu en 2026, et en particulier aux questions de codage automatique
+pour les produits de consommation courante répertoriés dans le carnet de
+dépenses. Dans le cadre de l'enquête, les produits de consommation sont
+jusqu'ici saisis par un enquêteur à partir de carnets de dépenses
+remplis à la main ou de tickets de caisse, puis codés en COICOP via
+Sicore et reprise. Le codage automatique était effectué par Sicore dans
+92 % des cas, avec une reprise manuelle pour les produits restants.
+Parmi les évolutions majeures de l'enquête, la disparition des tickets
+de caisse, et la diminution du nombre d'enquêteurs -- conjointement à la
+saisie directe des produits par les enquêtés dans un carnet web --
+mènent à un besoin accru de codification automatique. En 2022, le SSP
+Lab a commencé à étudier dans quelle mesure l'algorithme de codification
+automatique des données de caisse dans la nomenclature COICOP était
+adaptable aux données de l'enquête Budget de famille. Il s'avère que les
+données d'entraînement extraites des données de caisse et utilisées pour
+faire apprendre à coder dans la COICOP ne couvrent que partiellement les
+données présentes dans les carnets de Budget de famille. En 2023, le SSP
+Lab a travaillé avec la division CVM pour entraîner sur les données de
+l'enquête précédente un modèle proche de celui utilisé pour coder les
+données de caisse. Les performances en ont été améliorées mais il reste
+certaines limites (en particulier sur certaines parties de la
+nomenclature peu représentées dans les données). Une réflexion a été
+conduite avec la division CVM autour de ces limites avec la formulation
+de premières suggestions (notamment sur la nécessité d'une reprise
+manuelle).
+
+
+
+*Programme 2024* : le SSP Lab travaillera avec la division CVM pour
+évaluer la méthode de codification sur les données du test 2024 qui
+seront plus proches des données de l'enquête en 2026. Les échanges avec
+le groupe de travail européen de l'ESSnet Trusted Smart Surveys seront
+prolongés.
+
+
+
+### Groupe d'échanges et de partage de la veille
+
+
+
+*Contexte* : Les travaux liés à la codification automatique avec
+fastText s'étant multipliés à l'Insee dans les dernières années, le SSP
+Lab a lancé en septembre 2023 un groupe de veille réunissant l'ensemble
+des acteurs internes concernés, que ces derniers aient un rôle technique
+ou de management, afin de mutualiser les connaissances et avancées sur
+le sujet.
+
+
+
+Le groupe de veille de codification automatique a été lancé en septembre
+2023 et compte ainsi une vingtaine de participants. Les trois premières
+réunions du groupe ont permis de partager les différentes expériences et
+ressources afin de mettre sur un même niveau les connaissances des
+participants. Les deux réunions qui ont suivi correspondent à une
+formation au MLOps^5^ visant à partager les bonnes pratiques associées
+au développement et au maintien en condition opérationnelle de modèles
+prédictifs, prévu pour plusieurs équipes en 2024.
+
+
+
+*Programme 2024* : le groupe a vocation à continuer à mutualiser les
+connaissances en codification automatique : d'une part l'avancée des
+réflexions méthodologiques sur l'usage de fastText par la statistique
+publique et d'autre part la veille et l'expérimentation de nouveaux
+algorithmes de codification automatique.
+
+
+
+### Groupe de travail dans le cadre du centre de ressources  européen en IA/ML
+
+
+
+*Contexte* : le centre de ressources européen en IA/ML^6^ est un ESSnet
+financé par Eurostat qui sera lancé en avril 2024. Son objectif est de
+mettre à disposition de l'ensemble du SSE :
+
+  - une veille sur l'état de l'art en IA/ML ;
+  
+  - un ensemble de ressources et de formations en IA/ML ;
+  
+  - le développement de méthodologies et de standards pour l'usage de l'IA/ML dans les processus statistiques officiels ;
+  
+  - le développement de cas d'usage de l'IA/ML pour la statistique officielle ;
+  
+  - un « Lab » (plateforme) pour le prototypage de ces cas d'usage.
+
+
+L'un des cas d'usage est consacré au potentiel de l'IA/ML pour la
+classification et la codification automatique. Il s'agira notamment
+d'explorer l'usage des modèles d'IA/ML pour classer les données dans
+différentes nomenclatures internationales (NACE, COICOP, ISCO,...). Un
+des enjeux porte sur les langues : les textes sont dans des langus
+différentes et les données ne seront a priori pas échangeables. Ce
+groupe examinera les différentes approches jusqu'ici adoptées^7^ et en
+développera de nouvelles.
+
+
+
+*Programme 2024* : le SSP Lab participera à ce groupe de travail et
+contribuera aux réflexions et à la construction d'un ensemble de
+recommandations concernant l'ensemble du processus, y compris le
+preprocessing.
+
+
+

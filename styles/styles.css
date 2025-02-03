@@ -12,6 +12,7 @@
     text-decoration: none;
     padding: 10px;
     display: block;
+    text-align: left !important;
 }
 
 .sidebar a:hover {
@@ -28,7 +29,9 @@ h1, h2, h3 {
 body {
     font-size: 16px;
     color: #333;
+    text-align: justify;
 }
+
 
 /* En-tête */
 .header {
@@ -39,7 +42,7 @@ body {
 
 /* Texte en gras */
 strong {
-    color: #F39C12;
+    color: #2117A6;
 }
 
 /* Liens */
@@ -84,4 +87,27 @@ a:hover {
 
 #toc-sidebar a:hover {
     background-color: #e9ecef !important; /* Gris clair au survol */
+}
+
+
+/* Augmenter les marges latérales pour tout le texte */
+.content {
+  max-width: 900px; /* Ajustez cette valeur selon vos besoins */
+  margin: auto; /* Centre le texte */
+  padding-left: 30px;  /* Ajoute de l'espace à gauche */
+  padding-right: 50px; /* Ajoute plus d'espace à droite */
+}
+
+/* Ajuster l'espace entre le texte et la table des matières */
+.toc-right {
+  margin-left: 40px; /* Augmente l'espace entre le contenu et la TOC */
+  text-align: left !important;
+}
+
+  
+.titre-gros {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: left !important;
+  /* Ajoutez d'autres styles selon vos besoins */
 }

@@ -1,0 +1,39 @@
+*Contexte* : La chaire Finance Digitale regroupe Télécom Paris, Paris 2,
+Cartes Bancaires CB (ou GIE CB), la Banque postale, la Caisse des dépôts
+et l'Insee, et est hébergée à la Fondation du Risque (Institut Louis
+Bachelier). L'Autorité de contrôle prudentiel et de résolution (ACPR
+BdF) et France Fintech soutiennent la chaire. Les porteurs académiques
+de la chaire sont David Bounie (Télécom Paris) et Marianne Verdier
+(Paris 2). Cette chaire a pour objectif de conduire des travaux de
+recherche à partir des données de paiement par carte CB sur les
+innovations de services, de produits, et d'organisation en lien avec le
+numérique, susceptibles de modifier le métier de l'intermédiaire
+financier. Elle a aussi pour objectif la valorisation des données de
+paiement par carte CB dans une perspective de mieux prédire l'activité
+économique à différentes échelles géographiques et temporelles. Y sont
+exploitées par les doctorants embauchés dans le cadre de la chaire les
+données individuelles des opérations de paiement CB.
+
+Le projet scientifique porté par l'Insee dans le cadre de la
+participation à la Chaire Finance Digitale s'appuie sur la combinaison
+des informations fournies par les données CB et celles classiquement
+mobilisées par l'Insee (données fiscales des entreprises et des ménages,
+statistiques annuelles des entreprises, répertoire des entreprises,
+recensement de population, données sociales mesurant l'emploi localisé,
+base permanente des équipements...) afin d'aborder les thématiques
+suivantes :
+
+- l'analyse de la qualité, de la couverture des données CB, leur mise en qualité le cas échéant, la mesure de la valeur, du pouvoir informatif de ces données pour des exploitations dépassant celles relatives aux systèmes de paiement ;
+
+- l'exploration du potentiel de ces données, combinées aux données classiquement mobilisées par l'Insee, à instruire des sujets d'études et de recherche traitant du développement territorial, de la connectivité des territoires, des mobilités, du commerce, de l'évaluation des politiques publiques et de chocs exogènes.
+
+
+
+*Programme 2024* : Le SSP Lab assure le co-encadrement scientifique de
+la doctorante qui travaille sur ces données GIE CB, en lien étroit avec
+la DSE. Le SSP Lab assure également la coordination entre les projets
+menés dans le cadre de la chaire finance digitale et le projet MOBITIC.
+En effet, il existe des adhérences fortes dans les thèmes d'étude (par
+exemple : l'analyse de la connectivité des territoires peut être menée
+en suivant les trajectoires des porteurs de téléphone mobile ou en
+suivant les transactions des porteurs de carte bancaire).

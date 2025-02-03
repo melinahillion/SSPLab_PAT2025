@@ -1,0 +1,98 @@
+### ESSnet Web Intelligence Network
+
+*Contexte* : L'ESSnet Web Intelligence Network (WIN), lancé en 2021 pour
+une durée de quatre ans, vise à automatiser la collecte d'informations
+issues du web. Il est le prolongement des ESSnets Big Data et Big Data
+II et a repris les travaux portant sur la collecte des offres d'emploi
+en ligne (*Online Jobs Advertisements* ou OJA) et des caractéristiques
+d'entreprises (*Online Based Enterprises Characteristics* ou OBEC). Cet
+ESSnet vise à explorer également d'autres thèmes tels que la collecte
+d'informations sur l'immobilier ou le tourisme.
+
+
+
+L'Insee et la Dares participent à cet ESSnet et contribuent sur OJA
+(Dares - work package 2), l'immobilier (division Logement et
+patrimoine - work package 3), l'architecture et la méthodologie (SSP
+Lab - work package 4).
+
+
+
+En 2023, la contribution du SSP Lab s'est principalement faite au niveau
+de l'évaluation du DataLab créé pour le WIN, que l'Insee peut par
+exemple comparer à Onyxia. D'autres contributions ont également eu lieu,
+comme la labellisation d'offres d'emploi en français pour l'évaluation
+du modèle développé dans le cadre d'OJA, et la comparaison des résultats
+d'OJA et de JOCAS. Une première rencontre en présentiel du work package
+4 a eu lieu à Vienne en février 2023.
+
+*Programme 2024* : Le SSP Lab poursuivra sa contribution aux travaux
+portant sur l'architecture du Web Intelligence Hub (la plateforme de
+collecte et de traitement mise en place par Eurostat) et les aspects
+méthodologiques relatifs à l'exploitation des données issues du web
+(couverture, dédoublonnement, codification...). L'année 2024, dernière
+année de ce projet, sera principalement consacrée à l'émission de
+recommandations pour la suite des travaux.
+
+
+
+### Politique d'usage du web scraping
+
+
+
+*Contexte* : Afin de prendre la mesure des expérimentations réalisées en
+matière de *web scraping *au sein de l'Insee et du service statistique
+public, le SSP Lab et la DIIT ont organisé en 2019 un ensemble de cinq
+ateliers permettant de recueillir les pratiques à l'Insee et de poser
+les termes d'un cadre général quant au recours à de tels dispositifs.
+
+
+
+À l'issue de ces ateliers et suite à plusieurs autres échanges internes
+et externes, la rédaction d'une note de cadrage a été engagée entre 2019
+et 2020 par Éric Sigaud, Benjamin Sakarovitch et Arnaud Degorre.
+L'objectif était de produire une note à destination des agents de
+l'Insee ou des SSM susceptibles de s'engager dans une démarche de *web
+scraping*. Le projet propose une démarche préalable à toute opération de
+scraping et formule des points de vigilance pour s'assurer que la
+récupération des données respecte un certain nombre de bonnes pratiques.
+Cette note n'a pu être achevée et diffusée en raison du confinement de
+mars 2020.
+
+
+
+Dans le cadre de la préparation d'une mission de coopération portant sur
+le *web scraping* qui s'est déroulée au second semestre 2022 et qui a
+été suivi d'une seconde mission similaire en 2023, le SSP Lab a repris
+contact avec plusieurs divisions concernées afin d'effectuer un
+recensement partiel des projets liés au *web scraping* effectués à
+l'Insee. Cette démarche a permis d'identifier certains processus de
+collecte par *web scraping* mais a également mis en évidence le manque
+de vision d'ensemble sur les opérations de collectes par *scraping*
+réalisées à l'Insee, mais aussi et surtout au sein des SSM.
+
+
+
+Le système statistique européen a beaucoup investi dans la collecte de
+données par *web scraping*, plus récemment par l'intermédiaire de
+l'ESSnet Big Data II et du Web Intelligence Network (WIN). Dans ce
+cadre, et après de nombreuses itérations, des lignes directrices ont été
+validées par le DIME-ITDG en juin 2022 puis publiées sur CROS.
+
+
+
+*Programme 2024* : Dans l'ensemble, les projets recensés à l'Insee
+semblent individuellement respecter la plupart des recommandations
+adoptées au niveau européen. Cependant comparé à d'autres instituts,
+comme Statistique Canada ou l'ONS (Royaume-Uni) qui diffusent sur leurs
+sites web leurs politiques concernant le *web scraping*, l'Insee n'a pas
+encore affiché d'équivalent. La Dares affiche, quant à elle, sur son
+site web, le recours au *web scraping* des sites de recherche d'emploi.
+
+
+
+L'objectif 2024 est de relancer avec l'unité Qualité, et en coordination
+avec les divisions de l'Insee pratiquant le *web scraping* et les SSM
+intéressés, notamment le SDES, les travaux afin que l'Insee affiche, lui
+aussi, une politique d'usage de cette méthode.
+

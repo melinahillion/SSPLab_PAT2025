@@ -1,12 +1,53 @@
-# Moteurs d’identification
+### Moteur d'identification de RESIL
 
-## 2.1 Moteur d’identification de RESIL
+*Contexte* : Le moteur d'identification spécifique à Résil viendra se
+greffer au moteur d'identification actuel du CSNS, afin d'améliorer la
+qualité de ce dernier, en utilisant les informations identifiantes
+supplémentaires disponibles dans Résil, notamment l'adresse de résidence
+et les cohabitants. Le service d'identification de Résil aura deux cas
+d'usage : la mise à jour annuelle du socle de base de Résil et
+l'enrichissement d'une source externe.
 
--   **Programme 2024 :**
-    -   Sprint pour améliorer le paramétrage avec ElasticSearch.
-    -   Collaboration avec la DSDS pour le monitoring.
 
-## 2.2 Moteur d’identification de BRPP 3
+La DMCSI (SSP Lab et DRTI) ainsi que l'équipe Résil ont été mobilisés en
+2023 durant deux *sprints* dédiés à la construction du moteur
+d'appariement. Au terme du *sprint* d'octobre 2023, le service
+d'identification de Résil se présente sous forme de deux modules : un
+premier 'appel au moteur CSNS, puis le moteur d'appariement spécifique à
+Résil. Celui-ci procède suivant trois étapes : tout d'abord un filtre
+qui utilise les informations sur l'adresse et les cohabitants pour
+valider la qualité des identifiants fournis par le CSNS et ainsi
+sélectionner les observations à envoyer prioritairement à l'outil
+d'appariement spécifique à Résil ; ensuite l'outil d'appariement, pour
+lequel il a été décidé qu'ElasticSearch sera plus adapté que l'outil
+probabiliste SPLink ; enfin une étape de contrôle de la qualité de
+l'écho fourni, qui servira à terme au suivi des performances de l'outil
+d'appariement. Cette étape s'appuiera notamment sur un outil
+d'annotation des paires.
 
--   **Programme 2024 :**
-    -   Expertise sur la modernisation du moteur.
+*Programme 2024* : un prochain *sprint* sera organisé lorsque le socle
+de base de Résil fondé sur le RNIPP sera disponible, dans le courant du
+deuxième trimestre 2024. La question de savoir dans quelle mesure un
+paramétrage de l'outil d'appariement adapté spécifiquement à chaque base
+de donnée apporte un gain de qualité par rapport à un outil générique
+sera examinée durant ce *sprint*. À terme, pour affiner le paramétrage
+de l'outil, l'intervention d'un prestataire spécialiste d'ElasticSearch
+sera probablement nécessaire. Durant l'année 2024, une data scientist de
+l'équipe Résil travaillera en binôme avec le SSP Lab, ce qui facilitera
+notamment la transition vers le régime courant de gestion du moteur
+d'appariement, qui sera à terme assuré par la DSDS.
+
+
+
+###  Moteur d'identification de BRPP 3
+
+Dans le cadre du projet de refonte de BRPP 3, le département de la
+démographie souhaite étudier la modernisation du moteur
+d'identification, ce dernier ayant une finalité administrative et non
+statistique.
+
+Étant donné l'appui apporté par le SSP Lab sur le CSNS, et la
+perspective du départ en retraite prochain d'Yves-Laurent Bénichou, ce
+dernier apportera son expertise dans le cadre de l'instruction de la NCS
+et de la NCO au cours du premier semestre 2024.
+

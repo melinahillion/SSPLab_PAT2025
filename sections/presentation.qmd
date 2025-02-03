@@ -1,0 +1,28 @@
+L'unité SSP Lab a pour missions :
+
+- d'assurer 	une veille technologique et de diffuser largement les méthodes et 	technologies innovantes pertinentes pour la statistique publique ;
+	
+- d'analyser 	le potentiel pour le SSP des nouvelles sources de données et des 	nouvelles méthodes de data science au travers de travaux 	exploratoires ;
+	
+- d'animer 	les réseaux d'innovation statistique, notamment le réseau des 	data scientists de la statistique publique, grâce à des 	évènements, des formations, une newsletter...
+
+Le champ d'investigation du SSP Lab porte sur la data science, domaine interdisciplinaire à la croisée de l'informatique et de la statistique, porteur de nouvelles approches méthodologiques, de moyens d'analyse de nouvelles sources de données ainsi que de techniques, outils et méthodes de travail innovants. Le SSP Lab travaille ainsi en étroite collaboration avec la division innovation et instruction technique de la DSI.
+
+Les modes d'action du SSP Lab sont très variés : expérimentations en partenariat avec les équipes métiers, animation de réseaux, formations, publications de documents de travail, veille active dans des réseaux nationaux et internationaux, participation à des hackathons, conférences, groupes de travail et projets nationaux et internationaux... avec pour objectif de contribuer au développement de l'innovation au sein du SSP.
+
+Composé de neuf cadres A, dont le responsable et la responsable adjointe, le SSP Lab investit dans de nombreux thèmes relatifs à la data science. Un poste a été créé en septembre 2022 pour animer à mi-temps le réseau de data scientists du SSP (le SSP Hub). La taille de l'équipe et la mobilité de ses agents font que le niveau d'appropriation peut différer suivant les sujets : certains en sont encore à des phases exploratoires (e.g. traitement d'images satellitaires) tandis que l'expérience acquise sur d'autres (e.g. codification automatique) a permis leur mise en production.
+
+Le choix des axes d'investissement méthodologiques et techniques s'effectue sur la base des besoins métiers exprimés dans le service statistique public (SSP) et des opportunités offertes par les innovations méthodologiques et technologiques. Les contributions à des projets identifiés comme stratégiques pour le SSP sont priorisées, ainsi que celles mettant en œuvre de nouvelles méthodes et technologies dont le potentiel à moyen terme pour le SSP est étayé par la littérature ou des expériences d'autres INS. Pour mener à bien un investissement, le SSP Lab travaille systématiquement en étroite collaboration avec le service métier ayant exprimé un besoin, service qui doit donc également dégager des moyens.
+
+Pour l'année 2024, les méthodes traitées regroupent le traitement du langage naturel, principalement pour la codification automatique, les moteurs d'identification, l'extraction de tableaux scannés ainsi que le machine learning pour le data editing et l'imputation.
+
+Le travail sur les sources de données émergentes, axe stratégique pluriannuel, se poursuivra, principalement autour des données de téléphonie mobile, des transactions par cartes bancaires, des images satellitaires, et des données issues du Web le plus souvent en lien avec le milieu académique.
+
+Enfin, les actions de veille active ainsi que d'animation et de formations prendront une part importante, principalement dans le cadre de l'animation du réseau de data scientists de la statistique publique et de la communauté des data scientists de l'Etat (programme 10%) mais aussi à l'international, notamment dans le cadre de la coopération.
+
+Parmi les différents projets internationaux dans lesquels le SSP Lab est engagé, le centre de ressources européen en intelligence artificielle et machine learning1 qui démarrera en avril 2024, sera le plus structurant pour les quatre années à venir. Les autres projets internationaux auxquels le SSP Lab participera lui permettront de progresser sur des questions telles que l'utilisation des données de téléphonie mobile, l'éthique en IA et la quantification de l'incertitude des modèles d'apprentissage automatique.
+	
+	Le chef de l'unité
+ « 	SSP Lab »
+	
+	Signé : Romain Lesur

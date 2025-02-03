@@ -22,3 +22,4 @@ format:
     number-sections: false
     toc: false
     output-file: PAT.pdf  # Nom du fichier PDF généré
+  

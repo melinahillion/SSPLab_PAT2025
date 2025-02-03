@@ -1,0 +1,15 @@
+
+*Contexte* : A la suite d'un mémoire de master Ensai soutenu en
+septembre 2023, l'administrateur de l'application Citrus aura à faire
+intégrer en production un modèle de machine learning, afin d'améliorer
+l'algorithme de reconnaissance d'entités nommées appliqué aux annonces
+légales, première source d'information sur les restructurations
+d'entreprise. Par ailleurs, des nouveaux travaux d'exploitation des
+données présentes dans les actes juridiques de restructurations fournis
+par l'INPI sont envisagés en 2024.
+
+
+
+*Programme 2024* : En 2024, le SSP Lab échangera avec la division
+Infrastructures et répertoires statistiques de façon à préciser la
+demande d'appui et les modalités de collaboration.

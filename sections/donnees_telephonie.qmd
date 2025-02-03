@@ -1,0 +1,103 @@
+###  MOBITIC
+
+*Contexte* : le projet MOBITIC « Estimation des indicateurs de mobilité
+et de présence à l'aide des TIC » est financé par l'Agence Nationale de
+la Recherche à hauteur d'environ 550 k€ et court désormais sur la
+période 2020-2025 (probablement prolongé d'un an jusqu'au T1 2026). Les
+trois partenaires du projet sont Orange, l'Université Gustave Eiffel et
+l'Insee. A l'Insee, le projet est coordonné par le SSP Lab et implique
+également le SED de la DR de Lyon.
+
+
+Ce projet ambitionne d'utiliser des traces de téléphonie mobile,
+combinées à d'autres sources de données, pour estimer en continu des
+indicateurs de présence et de mobilités des personnes, sur la zone du
+Grand Lyon.
+
+
+Deux post-doctorants ont été recrutés : un spécialiste de
+l'apprentissage automatique encadré par UGE et une chercheuse en
+économie-géographique co-encadrée par l'Insee et UGE. En 2025, un
+post-doctorant sera recruté par Orange pour travailler directement sur
+les bases de données individuelles de téléphonie mobile et concevoir des
+indicateurs expérimentaux.
+
+
+Dans le cadre de MobiTIC, le service Flux Vision d'Orange met à
+disposition des indicateurs adaptés aux besoins du projet. L'équipe
+innovation de Flux Vision participe aux réunions du projet. Les données
+couvrent deux mois par an en 2020, 2021 et 2022. Il s'agit de données
+origine-destination et de données de présence sur la zone de Lyon,
+agrégées suivant un découpage à l'IRIS ou à l'EPCI.
+
+
+De plus, un accord de confidentialité a été signé avec SYTRAL Mobilités,
+autorité organisatrice des mobilités des territoires lyonnais, qui a
+donné accès aux données de billettique de transport en commun sur la
+période 2019-2021. Les données des boucles de comptage automobiles sont
+également utilisées.
+
+
+*Programme 2024* : Le SSP Lab travaillera à l'étude d'indicateurs de
+population présente et de mobilité à partir des nouvelles données
+disponibles sur la zone. Notamment, les zonages en aires d'attraction
+des villes et en bassins de vie seront confrontés aux mobilités réelles
+des habitants. Les données étant disponibles avant et après la crise du
+COVID, il est prévu d'étudier l'impact de celle-ci sur les comportements
+individuels et notamment le développement du télétravail. Il est
+également prévu d'étudier la ségrégation socio-spatiale au sein de
+l'agglomération lyonnaise. Le SED de Lyon et le SSP Lab co-écrirons un
+Insee Analyse décrivant les caractéristiques socio-démographiques du
+territoire d'étude à partir des données Insee. Un encadré décrira la
+population présente en journée observée dans les données de téléphonie
+mobile.
+
+
+### Groupe de travail européen visant à combiner données de téléphonie mobile et données issues d’autres sources
+
+*Contexte* : le SSP Lab participe à l’ESSnet “Trusted Smart Statistics: methodological developments based on new data sources”. Cet ESSnet, financé par Eurostat de décembre 2023 à décembre 2025, regroupe dix pays européens et est coordonné par l’Italie. L’objectif est de développer un cadre méthodologique commun permettant de combiner données de téléphonie mobile et autres sources de données. Les données considérées appartiennent à deux grandes catégories : les données “statistiques” collectées par les INS dans le but premier d’effectuer des statistiques (recensement, enquêtes) ; les données “non statistiques” collectées en premier pour d’autres usages et ensuite réutilisées pour la statistique (données administratives, capteurs de trafic routier, données de billettique de transport en commun,...). Le SSP Lab coordonne le premier groupe de travail de l’ESSnet, qui a pour but de dresser un panorama des sources de données à combiner aux données mobiles en analysant leurs avantages et limites. Eurostat souhaite notamment que ce panorama prenne en compte l’arbitrage entre la qualité des données et leur coût (d’acquisition ou de traitement suivant la source). L’objectif est de se placer dans une perspective de production régulière de statistiques officielles et plus seulement de statistiques expérimentales. De plus, il s’agit de considérer la disponibilité potentielle dans tous les pays européens.
+
+Le deuxième groupe de travail de cet ESSnet a pour but de développer des outils permettant de combiner données mobiles et autres sources de données. Ces outils seront open-source et donc mis à disposition de tous les INS. Ils considéreront différents niveaux d’agrégation des données utilisées (données individuelles, données agrégées, combinaison des deux,…).
+
+Enfin, le troisième groupe travaille sur la preuve du concept d’une enquête ad-hoc permettant de mieux comprendre les usages des téléphones et ainsi de mieux analyser les données de téléphonie mobile.
+
+L’ESSnet se concentre sur les données de téléphonie mobile, mais les réflexions pourront à terme s’étendre à d’autres nouvelles sources de données. L’objectif est également d’alimenter les réflexions sur le positionnement respectif des fournisseurs de données privées et des instituts de statistique (fournisseur-utilisateur, versus un partenariat plus équilibré avec des contributions de la part des deux côtés).
+
+Les pays partenaires qui accèdent à des données les reçoivent dans le cadre de partenariats avec des opérateurs, avec un niveau d’agrégation similaire à ce à quoi l’Insee accède dans le cadre de MOBITIC. Les cas d’usage qui ont retenu l’intérêt des partenaires rejoignent grandement ceux que MOBITIC prévoit d’étudier. Les fortes adhérences entre ces deux projets permettent donc d’espérer des mutualisations fructueuses. L’ESSnet a été lancé officiellement à Rome le 5 décembre 2023.
+
+*Programme 2024* : en tant que coordinateur du groupe de travail consacré au panorama des sources à combiner aux données de téléphonie mobile, le SSP Lab travaillera durant le S1 2024 à la préparation d’un séminaire de deux jours prévu en juin 2024 et destiné à élargir les discussions de l’ESSnet au delà des pays participants. En particulier, il s’agira de recueillir les avis et idées des autres pays européens sur les forces et faiblesses des données à combiner aux données de téléphonie mobile. Le S2 2024 sera consacré à la valorisation des échanges ayant eu lieu lors du séminaire, et à l’élaboration d’un document de synthèse.
+
+
+### Développement, implémentation et démonstration d’un pipeline de référence pour la production de statistiques officielles basé sur les données de multiples opérateurs de téléphonie mobile
+
+*Contexte* : compte tenu du potentiel des données de téléphonie mobile pour produire des statistiques officielles sur la population présente et la mobilité, Eurostat finance un consortium européen qui développe un cadre méthodologique et un logiciel open-source permettant aux INS d’exploiter les données de téléphonie mobile. Le projet est coordonné par un cabinet de conseil (GOPA). Le consortium réunit quatre INS (CBS Pays-Bas, ISTAT Italie, GUS Pologne et SURS Slovénie), deux entreprises spécialisées dans le traitement de données mobiles (Positium et Nommon) et cinq opérateurs de téléphonie mobile, issus de quatre pays différents (Orange Espagne, Vodafone Espagne, Vodafone Italie, A1 Slovénie et POST Luxembourg).
+
+Eurostat souligne l’intérêt que deux opérateurs du même pays participent au projet. Cela permettra ainsi de démontrer d’un point de vue technique et organisationnel, la possibilité de produire des statistiques à partir de données d’opérateurs concurrents au sein d’un même pays. Les opérateurs fourniront l’accès à leurs données pour tester, évaluer et améliorer le circuit de traitement des données développé durant le projet. Seules les données agrégées et anonymisées quitteront les serveurs des opérateurs de téléphonie mobile. L’objectif est que les traitements développés dans le cadre du projet puissent traiter les données individuelles directement sur les serveurs des opérateurs. Certains éléments de la méthode d’agrégation resteront paramétrables, de façon à s’ajuster aux exigences nationales et notamment aux contraintes réglementaires, qui peuvent différer suivant les pays. Une attention particulière sera portée au respect des informations commerciales sensibles pour les opérateurs. Par exemple, les poids utilisés pour garantir la représentativité des statistiques ne seront pas publiés. Des experts du domaine juridique font partie du consortium.
+
+La proposition a été validée par Eurostat en décembre 2022. Le projet a démarré en janvier 2023 et est prévu pour durer 30 mois, jusqu’à mi-2025.
+
+*Programme 2024* : le SSP Lab et des représentants d’Orange France font partie du comité de suivi du projet. Ce comité émet des avis sur les définitions, méthodologies, choix des cas d’usage, protection des données. L’objectif de cette participation est, pour le SSP Lab, que les conclusions du projet soient les plus transposables possibles en France.
+
+
+###  Task Force européenne sur les aspects méthodologiques liés à l'usage des données de téléphonie mobile pour la statistique publique
+
+
+*Contexte* : la Task Force sur l'usage des données de téléphonie mobile
+pour la statistique publique a été lancée par Eurostat en 2021. Son
+objectif est de coordonner et d'orienter les développements
+méthodologiques relatifs à l'utilisation de données mobiles au sein du
+système statistique européen, de favoriser le partage des connaissances
+et les bonnes pratiques issues des expériences nationales, et de
+progresser vers la définition d'un cadre méthodologique commun pour
+l'ensemble du système statistique européen.
+
+En septembre 2023, les 18 pays membres de la Task Force ont co-signé un
+article ([*position
+paper*](https://ec.europa.eu/eurostat/web/products-statistical-reports/w/ks-ft-23-001))
+présentant l'intérêt et les grands principes d'une méthodologie commune
+à l'ensemble du système statistique européen, pour traiter les données
+de téléphonie mobile.
+
+*Programme 2024* : le SSP Lab continuera à participer aux réflexions
+menées par la Task Force et à y présenter l'avancée des travaux menés
+par l'Insee sur les données de téléphonie mobile.
