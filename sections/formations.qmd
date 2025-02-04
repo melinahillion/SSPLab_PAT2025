@@ -1,0 +1,147 @@
+### Funathon
+
+
+
+*Contexte* : À l'interface d'une session de formation et d'un hackathon,
+le Funathon vise à proposer aux statisticiens du SSP une occasion
+d'apprendre et de mettre en pratique les méthodes de data science
+(machine learning, analyses de données textuelles, analyses
+géographiques, visualisation des données...). Pendant deux jours, les
+participants explorent et analysent une base de données utile à l'action
+publique sans qu'il n'y ait d'autres finalités attendues que leur propre
+pratique, leur progression et de pouvoir comprendre en quoi consistent
+les méthodes utilisées en data science, notamment afin de pouvoir
+réfléchir à un potentiel usage dans leur travail quotidien. Les trois
+premières éditions ont été un succès.
+
+
+
+*Programme 2024* : L'objectif est de co-organiser avec la DGAC cette
+troisième édition du funathon axé sur les problématiques de trafic
+aérien.
+
+
+
+### Appui à l'opération sortie de SAS et diffusion de bonnes pratiques en R
+
+
+
+Le SSP Lab contribue à l'opération sortie de SAS, notamment au travers
+de la promotion de formats de données novateurs, comme le format
+Parquet, dans le cadre de ses formations, de ses collaborations avec des
+équipes comme le DERA, ou de ses échanges avec la DSI.
+
+
+
+La formation aux "Bonnes pratiques avec R et Git" est officiellement au
+catalogue de formation depuis le début de l'année 2023. L'ensemble du
+contenu est disponible sur un [
+](https://inseefrlab.github.io/formation-bonnes-pratiques-git-R/)[*site
+web
+dédié*](https://inseefrlab.github.io/formation-bonnes-pratiques-git-R/).
+Une version courte a été réalisée à destination des managers, et
+plusieurs séances ont eu lieu en 2023.
+
+
+
+Le SSP Lab poursuivra en 2024 son engagement à la diffusion des bonnes
+pratiques au travers de la formation de formateurs et interviendra en
+appui de la restructuration de l'ensemble du parcours de formation, en
+lien avec le projet sortie de SAS et le contexte de développement de
+l'infrastructure LS3, infrastructure où le sujet du contrôle de version
+est central.
+
+
+
+###  E-formations à la data science
+
+
+
+Afin de s'adapter aux différents profils des apprenants, la DIIT et le
+SSP Lab ont organisé en 2023 deux sessions de formation à python (une
+formation d'initiation et une de perfectionnement) ainsi qu'une dizaine
+de séances de masterclass pour les datascientists du réseau SSP Hub
+(principalement sur des thèmes autour du traitement du langage et des
+images).
+
+
+
+Datascientest étant désormais un des titulaires du marché multi-éditeurs
+de l'UGAP, la DMI souhaite que le SSP Lab utilise ce support juridique
+plutôt que de passer un marché spécifique. Le SSP Lab a demandé à la
+division Formation de commander une dizaine de masterclass à l'UGAP pour
+2024.
+
+
+
+Le SSP Lab et la DIIT ont organisé un test d'e-formation tutoré
+d'initiation à python, avec l'aide de mentors volontaires. Ce test a
+débuté en décembre 2023 et est toujours en cours. En cas de succès, elle
+sera proposée à chaque trimestre.
+
+
+
+Suite au constat du peu de candidats intéressés par la formation
+perfectionnement organisée avec Datascientest en 2023, il 'n'est pas
+prévu de formation perfectionnement en 2024.
+
+
+
+### Formation Gradient boosting
+
+
+
+Depuis une dizaine d'années, les algorithmes de *gradient boosting* sont
+devenus des méthodes standards de data science pour exploiter les
+données structurées (ou tabulaires). Toutefois, leur usage reste encore
+limité dans la statistique publique, notamment faute de formation
+adaptée alors qu'elles pourraient trouver des cas d'utilisation'. Les
+algorithmes de *gradient boosting* sont en effet très efficaces pour des
+tâches de classification et de régression.
+
+
+
+L'objectif sera donc de concevoir et tester une formation théorique et
+pratique à l'usage de ces algorithmes pour les agents de la statistique
+publique. Cette formation sera destinée à un public avancé, ayant déjà
+une expérience en machine learning.
+
+
+
+### Appui aux écoles du GENES
+
+
+
+
+Le SSP Lab dispensera également des enseignements en formation initiale
+dans les écoles du GENES :
+
+- "Python pour la data science", ENSAE 2e année.
+
+- "Mise en production de projets data science", ENSAE 3e année
+
+- "Nouvelles sources de données", ENSAI Master « Science desdonnées pour la décision publique »
+
+
+
+Par ailleurs, Marie-Pierre Joubert participera à partir de 2024 au
+conseil d'école de l'ENSAI. Ce conseil est notamment consulté par le
+directeur de l'ENSAI sur : l'orientation générale de l'enseignement et,
+le cas échéant, de la recherche et de la formation continue ; les
+conditions d'organisation et de fonctionnement des écoles ; les quotas
+et les modes de sélection des élèves non fonctionnaires ; les
+orientations de l'action internationale et des partenariats.
+
+
+
+### Contribution aux ressources de formation du centre de ressources européen en IA/ML
+
+
+
+Le SSP Lab s'est positionné comme fort contributeur au groupe de travail
+du centre de ressources européen en IA/ML consacré aux formations.
+Notamment, le SSP Lab a prévu de fournir des supports de formation et
+d'intervenir en appui pour l'organisation d'un funathon ouvert à
+l'ensemble du SSE.
+
+

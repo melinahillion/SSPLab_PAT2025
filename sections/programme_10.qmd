@@ -1,0 +1,21 @@
+Suite à la recommandation du rapport DINUM-Insee, Etalab et l'Insee ont
+lancé en 2022 le programme 10 % : il permet à des experts de la donnée
+de l'administration de monter en compétence en consacrant jusqu'à 10 %
+de leur temps de travail à des projets transversaux, à des formations ou
+encore à des moments informels qui favorisent l'échange entre pairs.
+L'organisation matérielle et l'animation du programme 10 % est assurée
+par Etalab, en concertation avec l'Insee (chef de l'IG et SSP Lab).
+
+
+
+Organisé suivant le cycle des années civiles, la troisième "saison" du
+programme 10 % débutera le 11 mars 2024, par une journée d'idéation qui
+permettra à la communauté des data scientists de l'Etat de définir les
+projets qui seront menés collectivement.
+
+
+
+Dans la continuité des années précédentes, le SSP Lab participera
+activement au programme.
+
+

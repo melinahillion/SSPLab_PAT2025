@@ -1,0 +1,216 @@
+### Participation à des conférences et workshops
+
+#### Conférence sur les fondements et les progrès de l'Apprentissage Automatique dans les Statistiques Officielles du 3 au 5 avril 2024 à Wiesbaden
+
+
+
+La conférence internationale sur les fondements et les progrès de
+l'apprentissage automatique dans les statistiques officielles est
+organisée par l'Office fédéral de la statistique d'Allemagne (Destatis)
+à Wiesbaden, du 3 au 5 avril 2024. Ce forum d'échange international et
+interdisciplinaire abordera une large sélection de sujets autour de
+l'apprentissage automatique dans les statistiques officielles
+(méthodologies, qualité, expériences concrètes, aspects légaux et
+éthiques, robustesse, interprétabilité et explicabilité,
+reproductibilité, passage à l'échelle, formation,...) Le SSP Lab
+donnera une présentation sur les méthodes de *gradient boosting*
+(Olivier Meslin) et présentera, conjointement avec la DIIT, les travaux
+menés à l'Insee sur le passage en production des modèles de machine
+learning (Thomas Faria et Romain Avouac). Cette présentation sera
+développée dans un chapitre du livre "*Foundations and Advances of ML
+in Official Statistics*" coordonné par Destatis en supplément à la
+conférence.
+
+
+
+#### Conférence européenne sur la qualité dans les statistiques officielles du 4 au 7 juin 2024 à Estoril
+
+
+
+Le SSP Lab a soumis trois résumés pour la prochaine conférence qualité.
+
+Le premier s'intitule "Retraining strategies for an economic activity
+codification model" (Thomas Faria). Il présente les défis liés au
+passage en production du modèle de codification automatique de l'APE
+dans fastText et les solutions adoptées par l'Insee. La présentation
+abordera notamment les questions des stratégies de réentrainement (choix
+du jeu de données, fréquence, ...)
+
+
+
+Le deuxième résumé s'intitule "Which data to combine with Mobile Phone
+Data? Landscaping of the most promising sources and associated
+challenges" (Marie-Pierre Joubert). Cette présentation s'insérera dans
+la session spéciale dédiée à l'ESS Net "Trusted Smart Statistics --
+Methodological Development Based On New Data Sources" (cf supra). Elle
+présentera l'avancée des travaux du groupe de travail sur le panorama
+des sources de données à combiner aux données mobiles ainsi que leurs
+avantages et limites respectifs.
+
+
+
+Enfin, le troisième résumé s'intitule "Understanding the biases of
+wealth surveys: evidence from housing wealth of French households"
+(Olivier Meslin). Ce travail s'appuie sur un appariement entre l'enquête
+Patrimoine et les données fiscales pour documenter les biais de
+représentativité de l'enquête.
+
+
+
+#### Rencontres R du 12 au 14 juin à Vannes
+
+
+
+Les Rencontres R, portées par la Société Française de Statistique
+(SFdS), ont pour objectif d'offrir à la communauté francophone un lieu
+d'échange et de partage d'idées sur l'usage du langage R toutes
+disciplines confondues. L'édition 2024 est co-organisée par l'IRISA, le
+LMBA et l'Université Bretagne-Sud.
+
+
+
+Le comité scientifique a invité Romain Lesur à donner une conférence
+plénière sur Onyxia qui s'intitulera « Comment tirer parti des
+technologies cloud sans se faire enfermer ? le projet Onyxia ».
+
+
+
+#### Conférence Data for Policy du 9 au 11 juillet 2024 à Londres
+
+
+
+La conférence[ ](https://dataforpolicy.org/data-for-policy-2024/)[*Data
+for Policy*](https://dataforpolicy.org/data-for-policy-2024/) est
+organisée en collaboration avec l'Imperial College de Londres et
+Cambridge University Press. Le thème de la conférence est : "Une
+gouvernance digne de confiance grâce à l'IA". Le SSP Lab (Marie-Pierre
+Joubert) interviendra durant la session spéciale organisée par Eurostat
+autour du thème de l'IA et la data science pour la statistique
+officielle. Un des axes de cette session concerne en effet "les modèles
+de gouvernance permettant la collaboration entre les institutions, les
+universités et les entreprises privées dans le contexte de la production
+pérenne de données pour les statistiques officielles". L'article que
+présentera le SSP Lab s'intitule "Exploiter les données privées pour
+éclairer les politiques publiques : défis organisationnels et
+méthodologiques, focus sur les données de téléphonie mobile et de
+transaction par carte de crédit". Cet article est co-écrit avec Latifa
+Oukhellou (coordinatrice du projet ANR MOBITIC) et David Bounie
+(co-responsable scientifique de la chaire finance digitale). Il
+présentera deux types de partenariat permettant à l'Insee de travailler
+sur des nouvelles sources d'origine privée : projet ANR pour les données
+de téléphonie mobile ; chaire de recherche pour les données de
+transaction par carte bancaire. Au-delà du contenu scientifique de ces
+projets, l'article soulignera les différences entre ces deux modalités
+de partenariat et l'importance de construire une relation de confiance
+avec les opérateurs privés.
+
+
+
+#### Conférence Use of R in Official Statistics du 27 au 29 novembre à Athènes (uRos2024)
+
+
+
+Organisée depuis 2013 par différents INS européens, la conférence
+internationale *Use of R in Official Statistics* réunit chaque année des
+statisticiens publics, des scientifiques et des contributeurs importants
+de la communauté R.
+
+
+
+Le comité d'organisation a invité Romain Lesur à donner une conférence
+plénière sur l'utilisation de R et python en lieu et place de SAS qui
+s'intitulera "*Moving away from SAS: an opportunity to modernise the
+practices of statisticians*"
+
+
+
+###  Participation à des communautés d'innovation
+
+
+
+#### UNECE ModernStats Blue Skies Thinking Network
+
+
+
+L'UNECE constitue une communauté particulièrement active en matière
+d'innovation au niveau international, son programme de travail étant
+élaboré par le *High-level Group for the Modernisation of Statistical
+Production and Services* (HLG-MOS) auquel le SSP Lab participe.
+
+Le HLG-MOS, quant à lui, est alimenté en idées nouvelles par un groupe
+d'innovateurs nommé Blue Skies Thinking Network (BSTN) auxquel
+participent les instituts statistiques les plus influents au niveau
+international.
+
+
+
+Le SSP Lab est entré fin 2022 dans le BSTN et continuera à participer à
+cette communauté afin d'une part de détecter les nouvelles tendances en
+matière d'innovation et d'autre part, de partager les travaux innovants
+menés à l'Insee.
+
+
+
+#### UN Data Science Leaders Network
+
+
+L'ONU mène également de nombreuses actions en matière de data science et
+dispose, contrairement à l'UNECE, de moyens importants pour financer des
+travaux. En matière de technologies innovantes, l'UNSD finance notamment
+le Privacy Enhancing Technologies Lab (PET Lab), opéré par Statistique
+Canada.
+
+
+
+L'UNSD a mis en place le Data Science Leaders Network auquel participe
+le SSP Lab depuis 2023 afin, là encore, de détecter les sujets émergents
+au niveau international.
+
+
+
+### Liens avec le milieu académique
+
+
+
+#### Travaux conjoints avec des équipes universitaires
+
+
+
+Dans le cadre de MOBITIC, les travaux sont menés en collaboration avec
+l'Université Gustave Eiffel (laboratoire GRETTIA Génie des Réseaux de
+Transports Terrestres et Informatique Avancée et LICIT Laboratoire
+Ingénierie Circulation Transports).
+
+
+
+Dans le cadre de la chaire Finance digitale, les travaux sont menés en
+collaboration avec l'Institut Mines-Télécom (département sciences
+économiques et sociales) et l'Université Paris 2 (CRED Centre de
+Recherches en Economie et Droit).
+
+
+
+#### Affiliations académiques de membres du SSP-Lab
+
+
+
+Olivier Meslin est affilié à PSE (Paris School of Economics).
+
+
+
+#### Autres relations avec le milieu académique
+
+Le SSP Lab est en relation avec l'INRIA, plus particulièrement avec les
+responsables du projet scikit-learn, et les responsables des
+partenariats de l'INRIA.
+
+
+
+Le SSP Lab est également en relation avec Sébastien Da Veiga,
+enseignant-chercheur en machine learning à l'ENSAI.
+
+
+
+
+
+

@@ -77,6 +77,7 @@ a:hover {
     font-size: 14px;
 }
 
+
 /* Style des liens dans la table des matières */
 #toc-sidebar a {
     color: #007bff !important; /* Bleu pour les liens */
@@ -104,6 +105,9 @@ a:hover {
   text-align: left !important;
 }
 
+.sidebar .sidebar-tools {
+  display: none;
+}
   
 .titre-gros {
   font-size: 2em;

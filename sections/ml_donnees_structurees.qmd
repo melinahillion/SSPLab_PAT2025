@@ -1,0 +1,15 @@
+Le patrimoine informationnel de la statistique publique est très
+majoritairement constitué de données structurées. S'agissant de ce type
+de données, la démarche appliquée de modélisation par des méthodes
+d'apprentissage automatique s'est stabilisée depuis quelques années
+autour de l'utilisation de quelques outils^12^, pratiques et méthodes
+usuelles.
+
+
+
+Afin de diffuser plus largement ces connaissances au sein de la
+statistique publique, le SSP Lab et le DEE travailleront conjointement
+en 2024 à la rédaction d'un document de travail sur l'utilisation des
+méthodes de machine learning dans la statistique publique. Les cas
+d'usage seront choisis parmi les sujets d'intérêt signalés par le SSP.
+

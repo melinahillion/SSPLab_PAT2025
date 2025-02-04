@@ -9,11 +9,12 @@ format:
   html:
     theme: litera
     toc: true
+    toc-title: "Table des matières"
     number-sections: true
     css: styles/styles.css  # Fichier CSS pour personnaliser l'apparence
   pdf:
     documentclass: scrartcl
-    number-sections: false
+    number-sections: true
     toc: false
     header-includes: |
       \usepackage{graphicx}
@@ -50,6 +51,10 @@ format:
 
 [**PROGRAMME DE TRAVAIL PRÉVISIONNEL POUR 2025**]{.titre-gros}
 
+\tableofcontents
+
+
+\newpage
 
 # Axes d'investissement en appui à un processus de production statistique existant
 
@@ -67,6 +72,9 @@ format:
 
 ## Modèle de reconnaissance d’entités nommées pour CITRUS
 {{< include sections/modele_reconnaissance_entites.qmd >}}
+
+
+\newpage
 
 # Axes d'investissement explorant le potentiel de nouvelles sources de données
 
@@ -86,8 +94,41 @@ format:
 {{< include sections/extraction_information_textes.qmd >}}
 
 
+\newpage
 
 # Veille active, formations, diffusion de bonnes pratiques et animation de réseau
 
-## 
+## SSP HUB
+{{< include sections/ssp_hub.qmd >}}
+
+## Programme 10%
+{{< include sections/programme_10.qmd >}}
+
+## Explicabilité, éthique et usage responsable de l'intelligence artificielle
+{{< include sections/explicabilite_ethique_ia.qmd >}}
+
+## Document de travail sur les méthodes de machine learning appliquées aux données structurées
+{{< include sections/ml_donnees_structurees.qmd >}}
+
+## Quantification de l'incertitude dans les modèles de machine learning
+{{< include sections/quantification_incertitude_ml.qmd >}}
+
+## Formations
+{{< include sections/formations.qmd >}}
+
+## Hackathon SOCSTAF-ECOBUSAF
+{{< include sections/hackathon_socstaf_ecobusaf.qmd >}}
+
+## Veille active
+{{< include sections/veille_active.qmd >}}
+
+
+\newpage
+
+# Principales réalisations en 2024
+
+
+
+
+
 

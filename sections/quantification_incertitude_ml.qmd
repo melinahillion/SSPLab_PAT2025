@@ -1,0 +1,20 @@
+Les modèles d'apprentissage automatique sont des méthodes puissantes,
+capables de détecter des relations non linéaires afin de générer des
+prédictions. Cependant, comme pour tout autre modèle statistique,
+ceux-ci sont sensibles à l'incertitude qui peut être présente sous forme
+d'erreurs dans les données d'entraînement.
+
+
+
+Comme pour les modèles statistiques traditionnels, il est donc essentiel
+de pouvoir quantifier les erreurs de prédiction des méthodes
+d'apprentissage automatique. Cette question a fait l'objet de
+développements récents ces dernières années, principalement au travers
+de l'application de la prédiction conforme.
+
+
+
+Dans le cadre de son programme d'activités pour 2024, le groupe ADSaMM
+de l'UNECE engagera des travaux sur ce thème visant à faire un état des
+lieux et une synthèse de ce qui peut être utile pour la statistique
+publique. Le SSP Lab participera à ces travaux.

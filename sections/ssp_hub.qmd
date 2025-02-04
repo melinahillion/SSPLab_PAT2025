@@ -1,0 +1,66 @@
+L'importance de la data science pour la sphère publique a été soulignée
+dans différents rapports successifs. Le rapport DINUM-Insee sur l'«
+Évaluation des besoins de l'État en compétences et expertise en matière
+de donnée » ainsi que le rapport de l'Inspection Générale
+N°2020_48/DG75-B001 « Les corps de l'INSEE et les carrières des data
+scientists » recommandent la création de réseaux de data scientists pour
+répondre aux besoins dans ce domaine.
+
+
+
+Le réseau regroupe les agents volontaires du SSP. Ce réseau a vocation à
+diffuser dans l'ensemble des administrations de la statistique publique
+les thématiques pouvant amener à des évolutions de la production
+statistique. Le site web du réseau des data scientists de la statistique
+publique existe officiellement depuis septembre 2022 à l'adresse [
+](https://ssphub.netlify.app/)[*https://ssphub.netlify.app/*](https://ssphub.netlify.app/).
+
+
+
+Fin 2023, environ 550 personnes étaient inscrites à la liste de
+diffusion par laquelle sont envoyées régulièrement des newsletters de
+l'activité du réseau et des informations sur l'actualité en data
+science. Un an plus tôt, ils étaient 330 inscrits volontaires. Le réseau
+s'est diversifié en s'ouvrant vers l'extérieur : parmi les 550 inscrits
+intéressés par les contenus produits par le réseau, il y a environ 150
+personnes qui sont issues de sphères proches de la statistique publique
+mais hors du SSP (chercheurs et étudiants, agents d'administrations
+comme l'UNEDIC, la Banque de France, etc.).
+
+
+
+Le réseau propose des productions diverses pour répondre aux besoins
+multiples et aux niveaux variables d'expertise sur le sujet. Sur son
+site web ouvert et construit de manière collaborative, les agents du
+réseau peuvent proposer des articles ou relayer des formations utiles
+pour acculturer l'ensemble de la statistique publique aux innovations
+récentes de la data science. Une newsletter visant à faciliter la veille
+technique et permettant de diffuser plus largement les activités du
+réseau est envoyée à une large liste de diffusion. Cette newsletter
+s'adresse à un double public : une première partie décrit les actualités
+de la data science et les enjeux associés, de façon accessible à toute
+personne intéressée par le sujet ; une deuxième partie permet aux
+lecteurs plus experts de trouver des ressources ou informations utiles
+pour approfondir certains sujets. Un canal de discussion instantanée sur
+Tchap permet l'échange entre pairs.
+
+
+
+Dans le cadre des activités du réseau, plusieurs types d'événements ont
+été organisés. En premier lieu, une première journée du réseau a été
+organisée autour de retours d'expérience sur des projets d'innovation
+statistique et d'ateliers collaboratifs. Celle-ci a réuni 50 personnes
+sur place (capacité maximale du lieu d'accueil) et a été retransmise en
+format hybride pour les publics ne pouvant être présents. Une série de
+webinaires sur des sujets techniques, par exemple les librairies *open
+source* de mise à disposition des données Insee, a été organisée pendant
+l'année. Enfin, pour permettre une montée en compétences collectives sur
+les méthodes et outils de la *data science*, huit masterclass^9^ ont été
+organisées en lien avec l'institut spécialisé de formation
+*datascientest.*
+
+
+
+*Programme 2024* : les activités du réseau se poursuivront en 2024, avec
+l'envoi régulier de newsletters, l'organisation d'une deuxième journée
+du réseau et de nouvelles propositions de formations et de séminaires.

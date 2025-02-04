@@ -1,0 +1,44 @@
+*Contexte* : Les modèles d'apprentissage automatique, qui sont
+actuellement les plus utilisés dans le domaine de l'intelligence
+artificielle, bien que très puissants, souffrent d'une limite, à savoir
+leur côté "boîte noire". Cela pose la question de la confiance qu'on
+peut accorder à ces modèles. Ce constat a donné lieu à l'émergence, ces
+dix dernières années, d'un domaine de recherche nommé XAI (eXplainable
+Artificial Intelligence) qui a conduit au développement d'algorithmes
+permettant d'expliquer localement les résultats obtenus par certains
+modèles. Dans le contexte de la statistique publique, comprendre les
+résultats obtenus par les modèles d'intelligence artificielle rejoint la
+valeur de transparence des méthodes mises en œuvre.
+
+
+
+Il a été également constaté que les modèles d'apprentissage étaient
+susceptibles de reproduire des biais sociétaux préexistants, qu'ils se
+reflètent ou non dans les données d'entraînement, soulevant ainsi des
+questions éthiques.
+
+
+
+Au sein des instituts nationaux de statistique, Statistique Canada a été
+pro-actif sur ces questions et a été le premier institut à publier, en
+mai 2022, un guide sur l'usage responsable de l'apprentissage
+automatique^10^.
+
+
+
+Dans le cadre de son programme d'activités pour 2024, le groupe
+ADSaMM^11^ de l'UNECE auquel le SSP Lab participe, poursuivra ses
+travaux sur l'usage responsable de l'intelligence artificielle au sein
+de la statistique publique.
+
+
+
+*Programme 2024* : Le SSP Lab contribuera aux travaux de l'UNECE sur
+l'usage responsable de l'intelligence artificielle par les instituts
+nationaux de statistique. Pour diffuser auprès d'un large public interne
+les enjeux de l'explicabilité et l'éthique des modèles d'intelligence
+artificielle, le SSP Lab organisera également une série de présentations
+sur ce thème. Seront notamment présentées les méthodes d'explicabilité
+des algorithmes de machine learning (SHAP et LIME, par exemple), avec
+une attention particulière portée à leur application aux algorithmes de
+gradient boosting.

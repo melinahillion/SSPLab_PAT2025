@@ -1,0 +1,76 @@
+
+*Contexte* : les programmes SOCSTAF et ECOBUSAF du PAS2 sont prévus de
+2022 à 2026 et financés par Eurostat. L'objectif général de ces
+programmes est de renforcer le système statistique africain et de
+garantir la qualité des données utilisées dans le suivi des progrès
+sociétaux afin d'aider à la prise de décision politique dans ces pays.
+L'Insee coordonne ces programmes, en partenariat avec les instituts
+statistiques du Danemark (Danmarks Statistik), d'Espagne (INE), de
+Finlande (Tilastokeskus) et de Norvège (Statistisk Sentralbyrå). Les
+actions ciblent l'ensemble des pays de l'Union Africaine.
+
+
+
+Les deux programmes se rejoignent autour d'une activité commune
+consistant à apporter un support à l'exploration de nouvelles sources de
+données pour les besoins des statistiques sociales et à organiser un
+hackathon. L'objectif de ce hackathon est d'encourager les participants
+à travailler en équipe dans un contexte porteur de défis, en explorant
+des solutions innovantes.
+
+
+
+L'INS rwandais est le « regional data hub for big data » des Nations
+Unies. Ils ont déjà de l'expérience dans l'organisation de hackathons et
+ont accepté d'être impliqués.
+
+
+
+L'UNECA (United Nations Economic Commission for Africa) et l'UNDESA (UN
+Department of Economic and Social Affairs) seront informés de
+l'organisation du hackathon.
+
+
+
+Les principaux points d'organisation ont été établis avec l'INS du
+Rwanda :
+
+- un hackathon compétitif est préférable à un hackathon pédagogique. En effet, la plupart des pays d'Afrique ont déjà participé à des hackathons et leurs experts ont des connaissances de base en R et Python.
+
+- tous les participants utiliseront des données identiques.
+
+- des sessions de formation seront organisées en amont.
+
+- la plateforme Onyxia sera mise à disposition des participants qui souhaitent l'utiliser pour le hackathon.
+
+
+
+Un questionnaire a été envoyé début 2023 aux pays intéressés, expliquant
+en détail les principes du hackathon et les connaissances requises. 16
+pays ont fait part de leur intérêt pour le hackathon. Le Service
+statistique du ministère de l'Agriculture du Bénin a accepté de mettre à
+disposition des participants au hackathon la base de données du
+recensement agricole béninois. Le thème du hackathon sera "Exposition de
+l'agriculture africaine au changement climatique".
+
+
+
+*Programme 2024* : le SSP Lab continuera sa collaboration avec la
+Division Appui Technique International et le Service statistique
+agricole du Bénin pour organiser ce hackathon. Deux sessions
+préparatoires seront prévues avant le hackathon pour présenter les
+données et la plateforme onyxia : une demi-journée en anglais et une
+demi-journée en français. Une réunion aura également lieu avec les
+membres du jury et les tuteurs qui aideront les participants durant le
+hackathon. Le hackathon aura lieu au S1 2024.
+
+
+
+En 2024, les deux pays gagnants participeront à une visite d'étude de
+trois jours à l'Insee sur le thème des nouvelles méthodes de
+data-science et leur mise en œuvre dans les instituts de statistique
+publique. De plus, les deux gagnants pourront décrire leurs travaux dans
+un article qui sera publié dans le numéro spécial de l'Insee STATECO
+consacré au projet PASII.
+
+
