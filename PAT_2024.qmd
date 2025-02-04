@@ -1,6 +1,48 @@
 
 
 
+**PRINCIPALES RÉALISATIONS 2024**
+
+## MOBITIC
+
+Bilan 2024 : Le SSP Lab a travaillé à l’étude d’indicateurs de population présente et de mobilité à partir des nouvelles données disponibles sur la zone. Un stagiaire en troisième année de l’ENSAE a étudié la ségrégation socio-spatiale au sein de l’agglomération lyonnaise. Le SED de Lyon et le SSP Lab ont co-écrit un Insee Analyse, publié en novembre 2024, décrivant les caractéristiques socio-démographiques du territoire d’étude à partir des données Insee. Un encadré y décrit la population présente en journée observée dans les données de téléphonie mobile. Des travaux conjoints 
+
+
+
+## ESSNet MNO MINDS
+
+Contexte : le SSP Lab participe à l’ESSnet “Trusted Smart Statistics: methodological developments based on new data sources”. Cet ESSnet, financé par Eurostat de décembre 2023 à décembre 2025, regroupe dix pays européens et est coordonné par l’Italie. L’objectif est de développer un cadre méthodologique commun permettant de combiner données de téléphonie mobile et autres sources de données. Les données considérées appartiennent à deux grandes catégories : les données “statistiques” collectées par les INS dans le but premier d’effectuer des statistiques (recensement, enquêtes) ; les données “non statistiques” collectées en premier pour d’autres usages et ensuite réutilisées pour la statistique (données administratives, capteurs de trafic routier, données de billettique de transport en commun,...). Le SSP Lab a coordonné de décembre 2023 à janvier 2024 le premier groupe de travail de l’ESSnet, qui a pour but de dresser un panorama des sources de données à combiner aux données mobiles en analysant leurs avantages et limites. Eurostat souhaite notamment que ce panorama prenne en compte l’arbitrage entre la qualité des données et leur coût (d’acquisition ou de traitement suivant la source). L’objectif est de se placer dans une perspective de production régulière de statistiques officielles et plus seulement de statistiques expérimentales. De plus, il s’agit de considérer la disponibilité potentielle dans tous les pays européens.
+Le deuxième groupe de travail de cet ESSnet a pour but de développer des méthodes et outils permettant de combiner données mobiles et autres sources de données. Ces outils seront open-source et donc mis à disposition de tous les INS. Ils considéreront différents niveaux d’agrégation des données utilisées (données individuelles, données agrégées, combinaison des deux,…)
+
+Enfin, le troisième groupe travaille sur la preuve du concept d’une enquête ad-hoc permettant de mieux comprendre les usages des téléphones et ainsi de mieux analyser les données de téléphonie mobile.
+L’ESSnet se concentre sur les données de téléphonie mobile, mais les réflexions pourront à terme s’étendre à d’autres nouvelles sources de données. 
+
+
+Les pays partenaires qui accèdent à des données les reçoivent dans le cadre de partenariats avec des opérateurs, avec un niveau d’agrégation similaire à ce à quoi l’Insee accède dans le cadre de MOBITIC. Les cas d'application qui ont retenu l’intérêt des partenaires rejoignent grandement ceux que MOBITIC prévoit d’étudier. Les fortes adhérences entre ces deux projets permettent donc d’espérer des mutualisations fructueuses. 
+
+Bilan 2024 : en tant que coordinateur du groupe de travail consacré au panorama des sources à combiner aux données de téléphonie mobile, le SSP Lab a activement contribué à la préparation du séminaire de deux jours et demi en juin 2024 à Vienne, destiné à élargir les discussions de l’ESS-Net au-delà des instituts de statistique nationale participants au projet. En particulier, des opérateurs de téléphonie mobile de plusieurs pays ont participé, ainsi que des entreprises agrégatrices de données et une entreprise à mission spécialisée dans l’analyse des données mobiles pour les pays en voie de développement (FlowMinder).  De par la diversité des participants, le séminaire a été très enrichissant, et a permis de recueillir des avis et idées sur les forces et faiblesses des données à combiner aux données de téléphonie mobile. Le S2 2024 a été consacré à la valorisation des échanges ayant eu lieu lors du séminaire, et à l’élaboration du deuxième rendu du groupe de travail, livré à Eurostat en août. Ce rendu propose une grille d’analyse des forces et faiblesses des sources de données à combiner aux données de téléphonie mobile, ainsi qu’une analyse détaillée de 16 sources. Deux papiers ont été soumis aux conférences NTTS et ISI et retenus dans le cadre d’une session spéciale dédiée à la téléphonie mobile. 
+Programme 2025 : compte-tenu de la mobilité de MP Joubert, l’Allemagne reprend le lead du WorkPackage. Le SSPLab reste toutefois impliqué en tant que contributeur. 
+
+Le SSP-Lab sera impliqué dans l’organisation de la conférence finale de l’ESSNet, qui aura lieu dans les locaux de l’OCDE en septembre prochain.  
+
+Développement, implémentation et démonstration d’un pipeline de référence pour la production de statistiques officielles basé sur les données de multiples opérateurs de téléphonie mobile (projet Multi-MNO)
+Contexte : compte tenu du potentiel des données de téléphonie mobile pour produire des statistiques officielles sur la population présente et la mobilité, Eurostat finance un consortium européen qui développe un cadre méthodologique et un logiciel open-source permettant aux INS d’exploiter les données de téléphonie mobile. Le projet est coordonné par un cabinet de conseil (GOPA). Le consortium réunit quatre INS (CBS Pays-Bas, ISTAT Italie, GUS Pologne et SURS Slovénie), deux entreprises spécialisées dans le traitement de données mobiles (Positium et Nommon) et cinq opérateurs de téléphonie mobile, issus de quatre pays différents (Orange Espagne, Vodafone Espagne, Vodafone Italie, A1 Slovénie et POST Luxembourg).
+Eurostat souligne l’intérêt que deux opérateurs du même pays participent au projet. Cela permettra ainsi de démontrer d’un point de vue technique et organisationnel, la possibilité de produire des statistiques à partir de données d’opérateurs concurrents au sein d’un même pays. Les opérateurs fourniront l’accès à leurs données pour tester, évaluer et améliorer le circuit de traitement des données développé durant le projet. Seules les données agrégées et anonymisées quitteront les serveurs des opérateurs de téléphonie mobile. L’objectif est que les traitements développés dans le cadre du projet puissent traiter les données individuelles directement sur les serveurs des opérateurs. Certains éléments de la méthode d’agrégation resteront paramétrables, de façon à s’ajuster aux exigences nationales et notamment aux contraintes réglementaires, qui peuvent différer suivant les pays. Une attention particulière sera portée au respect des informations commerciales sensibles pour les opérateurs. Par exemple, les poids utilisés pour garantir la représentativité des statistiques ne seront pas publiés. Des experts du domaine juridique font partie du consortium.
+
+Les cas d’usage principaux sont : population présente, mobilité, étude de la dynamique des aires urbaines fonctionnelles, analyse de la fréquentation touristique, exposition aux risques, migrations internes.   
+La proposition a été validée par Eurostat en décembre 2022. Le projet a démarré en janvier 2023 et est prévu pour durer 30 mois, jusqu’à juin 2025.
+
+*Bilan 2024* : le SSP Lab et des représentants d’Orange France font partie du comité de suivi du projet. Ce comité émet des avis sur les définitions, méthodologies, choix des cas d’usage, protection des données. L’objectif de cette participation est, pour le SSP Lab, que les conclusions du projet soient les plus transposables possibles en France.
+Trois réunions ont eu lieu en 2024 (janvier, mars et mai). Des échanges nourris ont permis de contribuer à améliorer les rendus du projet. Une première version de ceux-ci a été publiée en décembre 2024. Le premier livrable décrit le cadre méthodologique : architecture générale, pré-requis, cas d’usage et méthodes. Le deuxième livrable décrit le cadre qualité et les modèle économique. Le troisième livrable présente les logiciels open-source utilisés pour construire le pipeline ainsi que la documentation technique. L’ensemble des codes et données tests est accessible sur le repository github du projet.   
+
+*Programme 2025* : le SSPLab continuera sa participation au comité de suivi du projet. Les prochaines réunions aborderont les premiers tests du pipeline sur deux premiers cas d’usage. A terme, six cas d’usage seront traités dans la version finalisée en juin 2025. 
+
+
+
+
+
+
+
 
 
 

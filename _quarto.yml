@@ -8,13 +8,14 @@ website:
   title: "Programme prévisionnel de travail du SSP Lab 2024"
   site-url: "https://github.com/inseefrlab/PAT"
   repo-url: "https://github.com/inseefrlab/PAT"
-  repo-actions: [edit, source, issue]
+  #repo-actions: [edit, source, issue]
 
 format:
   html: 
     theme: litera  # Applique un thème clair et professionnel (Thème Quarto de base)
     css: styles/styles.css  # 🔥 Ajout du CSS personnalisé
     toc: true  # Ajoute une table des matières
+    toc-title: "Table des matières"
     toc-location: right  # 🔥 Positionne la table des matières à droite
     number-sections: true  # Numérote les sections automatiquement
   pdf:
