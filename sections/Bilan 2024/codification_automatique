@@ -1,0 +1,153 @@
+
+Classer automatiquement une observation dans la catégorie pertinente
+d'une nomenclature statistique permet un gain de qualité et
+d'efficacité. Plusieurs directions de l'Insee ont une attente forte sur
+ce sujet. Il s'agit d'un axe de travail majeur pour le SSP Lab, qui
+s'implique à la fois dans l'entraînement du modèle et dans
+l'accompagnement des maîtrises d'ouvrage en vue de la mise en
+production. Il s'agit également d'un axe d'investissement au niveau
+international, la codification automatique étant le cas d'usage le plus
+répandu des méthodes d'apprentissage automatique au sein des instituts
+de statistiques, investissement qui devrait encore se renforcer avec le
+centre de ressources européen en intelligence artificielle et machine
+learning^2^ qui sera lancé en avril 2024.
+
+
+
+En raison notamment des contraintes liées au passage en production, la
+technologie utilisée est actuellement fastText^3^, mais le SSP Lab
+continue un travail de veille sur l'amélioration des méthodes de
+classification, veille menée de manière collective grâce à un groupe de
+travail rassemblant des agents de plusieurs directions concernées par la
+codification automatique. Aujourd'hui l'Insee utilise cette méthode pour
+coder trois types d'information : le code APE d'une entreprise, la
+profession et catégorie socioprofessionnelle d'un individu et les
+nomenclatures des produits de consommation des ménages (COICOP et
+NA2008).
+
+
+
+### Codification de l'APE en NAF 2025 dans le cadre du projet Sirene 4
+
+
+### Codification des produits de consommation : IPC et enquête Budget des familles
+
+
+
+*Programme 2025* : une réflexion sur la stratégie de labellisation et
+d'entraînement du modèle est à mettre en œuvre dans la suite des
+travaux. Par ailleurs, un travail méthodologique similaire est à mener
+concernant l'enseigne Aldi. Le SSP Lab pourra apporter son appui à la
+division IPC si elle souhaite mener à bien de tels travaux.
+
+
+
+
+*Contexte* : la division Conditions de vie des ménages travaille à la
+modernisation de l'enquête Budget de famille, dont la prochaine édition
+aura lieu en 2026, et en particulier aux questions de codage automatique
+pour les produits de consommation courante répertoriés dans le carnet de
+dépenses. Dans le cadre de l'enquête, les produits de consommation sont
+jusqu'ici saisis par un enquêteur à partir de carnets de dépenses
+remplis à la main ou de tickets de caisse, puis codés en COICOP via
+Sicore et reprise. Le codage automatique était effectué par Sicore dans
+92 % des cas, avec une reprise manuelle pour les produits restants.
+Parmi les évolutions majeures de l'enquête, la disparition des tickets
+de caisse, et la diminution du nombre d'enquêteurs -- conjointement à la
+saisie directe des produits par les enquêtés dans un carnet web --
+mènent à un besoin accru de codification automatique. En 2022, le SSP
+Lab a commencé à étudier dans quelle mesure l'algorithme de codification
+automatique des données de caisse dans la nomenclature COICOP était
+adaptable aux données de l'enquête Budget de famille. Il s'avère que les
+données d'entraînement extraites des données de caisse et utilisées pour
+faire apprendre à coder dans la COICOP ne couvrent que partiellement les
+données présentes dans les carnets de Budget de famille. En 2023, le SSP
+Lab a travaillé avec la division CVM pour entraîner sur les données de
+l'enquête précédente un modèle proche de celui utilisé pour coder les
+données de caisse. Les performances en ont été améliorées mais il reste
+certaines limites (en particulier sur certaines parties de la
+nomenclature peu représentées dans les données). Une réflexion a été
+conduite avec la division CVM autour de ces limites avec la formulation
+de premières suggestions (notamment sur la nécessité d'une reprise
+manuelle).
+
+
+
+*Programme 2024* : le SSP Lab travaillera avec la division CVM pour
+évaluer la méthode de codification sur les données du test 2024 qui
+seront plus proches des données de l'enquête en 2026. Les échanges avec
+le groupe de travail européen de l'ESSnet Trusted Smart Surveys seront
+prolongés.
+
+
+
+### Groupe d'échanges et de partage de la veille
+
+
+
+*Contexte* : Les travaux liés à la codification automatique avec
+fastText s'étant multipliés à l'Insee dans les dernières années, le SSP
+Lab a lancé en septembre 2023 un groupe de veille réunissant l'ensemble
+des acteurs internes concernés, que ces derniers aient un rôle technique
+ou de management, afin de mutualiser les connaissances et avancées sur
+le sujet.
+
+
+
+Le groupe de veille de codification automatique a été lancé en septembre
+2023 et compte ainsi une vingtaine de participants. Les trois premières
+réunions du groupe ont permis de partager les différentes expériences et
+ressources afin de mettre sur un même niveau les connaissances des
+participants. Les deux réunions qui ont suivi correspondent à une
+formation au MLOps^5^ visant à partager les bonnes pratiques associées
+au développement et au maintien en condition opérationnelle de modèles
+prédictifs, prévu pour plusieurs équipes en 2024.
+
+
+
+*Programme 2024* : le groupe a vocation à continuer à mutualiser les
+connaissances en codification automatique : d'une part l'avancée des
+réflexions méthodologiques sur l'usage de fastText par la statistique
+publique et d'autre part la veille et l'expérimentation de nouveaux
+algorithmes de codification automatique.
+
+
+
+### Groupe de travail dans le cadre du centre de ressources  européen en IA/ML
+
+
+
+*Contexte* : le centre de ressources européen en IA/ML^6^ est un ESSnet
+financé par Eurostat qui sera lancé en avril 2024. Son objectif est de
+mettre à disposition de l'ensemble du SSE :
+
+  - une veille sur l'état de l'art en IA/ML ;
+  
+  - un ensemble de ressources et de formations en IA/ML ;
+  
+  - le développement de méthodologies et de standards pour l'usage de l'IA/ML dans les processus statistiques officiels ;
+  
+  - le développement de cas d'usage de l'IA/ML pour la statistique officielle ;
+  
+  - un « Lab » (plateforme) pour le prototypage de ces cas d'usage.
+
+
+L'un des cas d'usage est consacré au potentiel de l'IA/ML pour la
+classification et la codification automatique. Il s'agira notamment
+d'explorer l'usage des modèles d'IA/ML pour classer les données dans
+différentes nomenclatures internationales (NACE, COICOP, ISCO,...). Un
+des enjeux porte sur les langues : les textes sont dans des langus
+différentes et les données ne seront a priori pas échangeables. Ce
+groupe examinera les différentes approches jusqu'ici adoptées^7^ et en
+développera de nouvelles.
+
+
+
+*Programme 2024* : le SSP Lab participera à ce groupe de travail et
+contribuera aux réflexions et à la construction d'un ensemble de
+recommandations concernant l'ensemble du processus, y compris le
+preprocessing.
+
+
+
+

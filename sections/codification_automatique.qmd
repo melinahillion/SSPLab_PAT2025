@@ -33,13 +33,13 @@ NA2008).
 
 *Contexte* : le système Sicore était mal adapté aux évolutions dans la
 description de l'activité des entreprises dues à leur enregistrement via
-le « Guichet unique entreprises » (GUE), entré en vigueur au 1^er^
+le « Guichet unique entreprises » (GUE), entré en vigueur au 1er
 janvier 2023. En effet, seuls 30 % environ des bulletins du guichet
 unique auraient pu être codés par Sicore. Durant le second semestre
 2022, le SSP Lab a développé un algorithme de codification automatique
 de l'APE grâce à la librairie fastText et a travaillé avec les équipes
 du projet SIRENE 4 pour passer ce modèle en production. L'ensemble des
-liasses du guichet unique sont traitées par ce modèle depuis le 1^er^
+liasses du guichet unique sont traitées par ce modèle depuis le 1er
 janvier 2023. Depuis septembre 2023, un data scientist a rejoint la
 division RIAS et prend progressivement en charge le pilotage du projet
 avec le soutien du SSP Lab. Un tableau de bord a été créé pour suivre en
